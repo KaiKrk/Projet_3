@@ -1,0 +1,30 @@
+2018-05-14 17:26:53.772 [main] INFO  fr.kaiqiang.main.Game_PJ3 - bon
+2018-05-14 17:27:40.690 [main] INFO  fr.kaiqiang.main.Game_PJ3 - bon
+2018-05-14 17:27:40.693 [main] TRACE fr.kaiqiang.main.Game_PJ3 - Test de logger.trace
+2018-05-14 17:30:19.377 [main] INFO  fr.kaiqiang.main.Game_PJ3 - bon
+2018-05-14 17:30:19.381 [main] TRACE fr.kaiqiang.main.Game_PJ3 - Test de logger.trace
+2018-05-14 17:33:38.796 [main] INFO  fr.kaiqiang.main.Game_PJ3 - bon
+2018-05-14 17:33:38.800 [main] TRACE fr.kaiqiang.main.Game_PJ3 - Test de logger.trace
+2018-05-15 08:58:11.808 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-15 09:05:40.669 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-15 09:05:44.633 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-15 09:06:27.744 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-15 09:06:29.248 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-15 09:07:16.095 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-15 09:07:17.495 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-15 09:07:53.608 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-15 09:07:55.143 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-15 09:09:00.891 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-15 09:09:02.290 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-15 09:10:07.022 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-15 09:10:08.344 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-15 09:10:26.046 [main] INFO  util.ResearchGame - Fin Du Jeu
+2018-05-15 09:11:59.955 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-15 09:12:02.970 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-15 09:12:14.479 [main] INFO  util.ResearchGame - Fin Du Jeu
+2018-05-15 09:12:20.357 [main] INFO  util.ResearchGame - Fin Du Jeu
+2018-05-15 09:12:41.978 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-15 09:12:44.436 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-15 09:12:52.776 [main] INFO  util.ResearchGame - Fin Du Jeu
+2018-05-15 09:14:51.339 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-15 09:14:53.252 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
