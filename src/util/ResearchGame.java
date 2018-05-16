@@ -1,6 +1,5 @@
 package util;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -34,7 +33,7 @@ public class ResearchGame {
 		Properties prop = new Properties();
 		InputStream input = null;
 		try {
-			input = new FileInputStream(new File("ressources/config.properties"));
+			input = new FileInputStream("config.properties");
 		} catch (FileNotFoundException e2) {
 			e2.printStackTrace();
 		}
