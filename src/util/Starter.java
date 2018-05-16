@@ -27,8 +27,11 @@ public class Starter {
 				System.out.println(choice);
 				
 				try {
-					int game = scan.nextInt();
-					
+					int game = 0;
+					String gameString = scan.nextLine();
+					if(gameString.length() == 1){
+						game = Integer.parseInt(gameString);
+					}
 					switch (game) {
 						case 1:
 							research.researchGames(scan);
@@ -39,14 +42,10 @@ public class Starter {
 					}
 				}
 				catch (Exception e) {
-					e.printStackTrace();
-					scan.nextLine();
+					start(scan);
 				}
 			}
 			
-//			System.out.print("Voulez vous recommencer ? (O/n) ");
-//			if (!scan.next().equals("n")) start(scan);
-//			else System.out.println("Au revoir");
 		}
 	
 

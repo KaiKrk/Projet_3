@@ -34,7 +34,7 @@ public class ResearchGame {
 		Properties prop = new Properties();
 		InputStream input = null;
 		try {
-			input = new FileInputStream(new File("./ressources/config.properties"));
+			input = new FileInputStream(new File("ressources/config.properties"));
 		} catch (FileNotFoundException e2) {
 			e2.printStackTrace();
 		}
