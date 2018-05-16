@@ -18,7 +18,6 @@ public class Game {
 	static final Logger logger = LogManager.getLogger();
 	public static void main(String[] args) {
 		logger.info("Lancement Du Jeu");
-//		logger.trace( "Test de logger.trace");
 		Scanner scan = new Scanner(System.in);
 		Starter starter = new Starter();
 		starter.start(scan);

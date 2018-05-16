@@ -30,7 +30,7 @@ public class Mastermind {
 		InputStream input = null;
 		
 		try {
-			input = new FileInputStream("src/fr/kaiqiang/ressources/config.properties");
+			input = new FileInputStream("./ressources/config.properties");
 		}
 		catch (FileNotFoundException e2) {
 			e2.printStackTrace();
