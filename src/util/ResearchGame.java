@@ -46,12 +46,15 @@ public class ResearchGame {
 		
 		int essai = Integer.parseInt(prop.getProperty("essai"));
 		
+		
 		System.out.println("Bienvenue dans le Jeu de Recherche,"
 				+ "\nIl y a dans ce Jeu 3 modes : "
 				+ "\nJeu n°1 : Challenger où vous devez trouver la combinaison secrète de l'ordinateur"
 				+ "\nJeu n°2 : Défenseur où c'est à l'ordinateur de trouver votre combinaison secrète"
 				+ "\nJeu n°3 : Duel où l'ordinateur et vous jouez tour à tour, le premier à trouver la combinaison secrète de l'autre a gagné"
 				+ "\nEntrez votre choix en rentrant 1, 2 ou 3");
+		
+		
 		game :while(true) {
 			
 			int game =scan.nextInt();
@@ -60,6 +63,7 @@ public class ResearchGame {
 			/**
 			 * Mode Challenger du jeu de recherche 
 			 */
+				
 				case 1 :
 					int indexMax = Integer.parseInt(prop.getProperty("case"));
 					reponse = gameUtil.generateRandomNumber(indexMax);	
@@ -67,8 +71,7 @@ public class ResearchGame {
 					
 				essai: while(essai != 0) {
 					if (developer == 1) {
-						System.out.println(""
-								+ "La Reponse Du Jeu est : " + reponse);
+						System.out.println("\nLa Reponse Du Jeu est : " + reponse);
 					}
 					combinaison = gameUtil.inputUserValue(indexMax);
 					
@@ -85,6 +88,7 @@ public class ResearchGame {
 						reponseList.set(index, reponse/exponant % 10);
 						exponant = exponant / 10;
 					}
+					
 					System.out.print("Voici l'indice : ");
 						for (int index = 0; index < indexMax ; index++) {
 							
@@ -117,9 +121,12 @@ public class ResearchGame {
 						
 					break game;
 				
+					
 					/*
 					 * mode défenseur du Jeu de recherche 
 					 */
+					
+					
 				case 2 :
 					int saisieUtilisateurInt, responseProgram,
 					responseProgramSplit,min,max;
@@ -163,6 +170,7 @@ public class ResearchGame {
 							essai--;
 						}
 						
+						
 						int exponant = (int) Math.pow(10, indexMax-1);
 						for (int index = 0; index < indexMax ; index++) {
 							responseProgramList.set(index, responseProgram / exponant % 10);
@@ -174,6 +182,7 @@ public class ResearchGame {
 						for (int index = 0; index < indexMax ; index++) {
 							responseProgramSplit = responseProgramList.get(index);
 							int responseValueUser = userValueList.get(index);
+							
 							try {
 								
 								if(responseProgramSplit < responseValueUser) {
@@ -200,13 +209,14 @@ public class ResearchGame {
 							}
 						}
 						
-						responseProgram = 0 ;
 						
+						responseProgram = 0 ;
 						for(int index= 0; index < indexMax; index++) {
 							int addition = (int) (responseProgramList.get(index)*Math.pow(10, indexMax-1-index));
 							responseProgram =  responseProgram + addition;
 						}
 							
+						
 							try {
 								Thread.sleep(500);
 							} catch (InterruptedException e) {
@@ -216,14 +226,20 @@ public class ResearchGame {
 					}
 				
 					break game;
+					
 				/*
 				 * mode duel du Jeu de Recherche
 				 */
+					
+					
 				case 3 : 
-					essai = 10; int turn = 1, userValueInt, indexMaxDuel = 4;
+					essai = 10; int turn = 1, userValueInt;
+					
 					int developerDuel = Integer.parseInt(prop.getProperty("developerMod"));
 					indexMax = Integer.parseInt(prop.getProperty("case"));
 					reponse = gameUtil.generateRandomNumber(indexMax);			
+					
+					
 					ArrayList<Integer> responseDuelList = new ArrayList<Integer>();
 					ArrayList<Integer> maxListDuel = new ArrayList<Integer>();
 					ArrayList<Integer> minListDuel = new ArrayList<Integer>();
@@ -232,23 +248,32 @@ public class ResearchGame {
 					
 					
 					for (int index = 0; index < indexMax; index++) {
+						
 						responseDuelList.add(0);
 						minListDuel.add(0);
 						maxListDuel.add(10);
 						userValueDuelList.add(0);
 						programValueDuelList.add(0);
+						
 					}
 					
 					int exponant = (int) Math.pow(10, indexMax-1);
+					
 					for (int index = 0; index < indexMax ; index++) {
+						
 						responseDuelList.set(index, reponse / exponant % 10);
 						exponant = exponant / 10;
+						
 					}
 					int programValue = gameUtil.generateRandomNumber(indexMax);
 					   exponant = (int) Math.pow(10, indexMax-1);
+					   
+					   
 					for (int index = 0; index < indexMax ; index++) {
+						
 						programValueDuelList.set(index, programValue / exponant % 10);
 						exponant = exponant / 10;
+						
 					}
 					
 				
@@ -285,7 +310,7 @@ public class ResearchGame {
 						
 						}
 						if (userValueDuelList.equals(responseDuelList)) {
-							System.out.println("Bravo vous avez gagner !!!");
+							System.out.println("\nBravo vous avez gagner !!!");
 							break game;
 						}
 						else {
@@ -296,7 +321,7 @@ public class ResearchGame {
 								// TODO Auto-generated catch block
 								e1.printStackTrace();
 							}
-							for (int index = 0; index < indexMaxDuel; index++ ) {
+							for (int index = 0; index < indexMax; index++ ) {
 								responseProgram = programValueDuelList.get(index);
 								int secretPasswordSplit = responseDuelList.get(index);
 								try {
