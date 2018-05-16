@@ -42,6 +42,7 @@ public class Starter {
 					}
 				}
 				catch (Exception e) {
+					System.out.println("Petite Erreur? On recommence");
 					start(scan);
 				}
 			}
