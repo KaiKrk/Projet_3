@@ -10,7 +10,7 @@ public class Starter {
 		ResearchGame research = new ResearchGame();
 		Mastermind mastermind = new Mastermind();
 		public void start(Scanner scan) {
-			String welcome = "-------------------------------------\n";
+			String welcome = "-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_\n";
 			welcome += "***Bienvenue dans le Jeu***\n";
 			
 			System.out.println(welcome);
