@@ -413,7 +413,7 @@ public class Mastermind {
 
 			}
 		}
-		while(true) {
+		ending : while(true) {
 			
 			System.out.println("Vous voulez jouer au même jeu(1)? un autre Jeu(2) ?\n Ou bien quittez l'application ? (3)");
 			switch(scan.nextInt()) {
@@ -421,6 +421,7 @@ public class Mastermind {
 				case 2 : starter.start(scan);
 				case 3 : System.out.println("Au Revoir !");
 					 logger.info("Fin Du Jeu");
+					 break ending;
 			}
 		}
 	}
