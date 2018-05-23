@@ -9,7 +9,9 @@ import java.util.Properties;
 
 import util.GameUtilitaire;
 import util.Mastermind;
-
+/*
+ * mode defenseur du Jeu de Mastermind
+ */
 public class MastermindDefense extends Mastermind {
 	public void mastermindDefense() {
 		GameUtilitaire gameUtil = new GameUtilitaire();

@@ -9,7 +9,9 @@ import java.util.Properties;
 
 import util.GameUtilitaire;
 import util.Mastermind;
-
+/*
+ * mode Duel du Jeu de Mastermind
+ */
 public class MastermindDuel extends Mastermind {
 	public void mastermindDuel(int developer) {
 		int essai,indexMax,responseToFind,responseProgram,responseProgramSplit,min,max,turn,

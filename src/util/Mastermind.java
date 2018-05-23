@@ -49,7 +49,7 @@ public class Mastermind {
 		System.out.println(mastermindIntro);
 
 		game: while (true) {
-			int game = gameUtil.inputChoice(scan);
+			int game = gameUtil.inputChoice();
 
 			switch (game) {
 			case 1:
@@ -72,13 +72,23 @@ public class Mastermind {
 		ending : while(true) {
 			
 			System.out.println("Vous voulez jouer au même jeu(1)? un autre Jeu(2) ?\n Ou bien quittez l'application ? (3)");
-			switch(scan.nextInt()) {
-				case 1 : mastermindGames(scan,developer);
-				case 2 : starter.start(scan,developer);
-				case 3 : System.out.println("Au Revoir !");
-					 logger.info("Fin Du Jeu");
-					 break ending;
+			try {
+				Scanner scanner = new Scanner(System.in);
+				switch(scanner.nextInt()) {
+					case 1 : mastermindGames(scan,developer);
+							scanner.close();
+					case 2 : starter.start(scan,developer);
+							scanner.close();		
+					case 3 : System.out.println("Au Revoir !");
+							scanner.close();
+							logger.info("Fin Du Jeu");
+							break ending;
+				}
 			}
+				catch (Exception e) {
+					System.out.println("Astuce, ici il faut rentrer 1 2 ou 3 !");
+					continue;
+				}
 		}
 	}
 }

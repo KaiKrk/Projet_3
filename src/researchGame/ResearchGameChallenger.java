@@ -8,7 +8,9 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 import util.GameUtilitaire;
-
+/**
+ * Mode Challenger du jeu de recherche 
+ */
 public class ResearchGameChallenger {
 		
 	public void researchChallenger(int developer) {

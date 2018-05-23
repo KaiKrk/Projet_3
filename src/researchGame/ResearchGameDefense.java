@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 import util.GameUtilitaire;
+/*
+ * mode défenseur du Jeu de recherche 
+ */
 
 public class ResearchGameDefense {
 	private final String Welcome_Message = "Bienvenue dans le mode défenseur du Jeu de Recherche dans ce Jeu.\n Vous devez ici rentrer la combinaison et l'ordinateur va essayer de trouver la combinaison\n\n";

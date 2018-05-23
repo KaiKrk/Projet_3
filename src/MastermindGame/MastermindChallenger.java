@@ -12,7 +12,9 @@ import util.Mastermind;
 
 
 public class MastermindChallenger extends Mastermind {
-	
+	/*
+	 * mode challenger du Jeu de Mastermind
+	 */
 	public void mastermindChallenger(int developer) {
 		GameUtilitaire gameUtil = new GameUtilitaire();
 		Properties prop = new Properties();

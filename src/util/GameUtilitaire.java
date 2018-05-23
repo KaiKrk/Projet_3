@@ -174,8 +174,9 @@ public int generateRandomNumberMastermind(int indexMax, int numberAllowed) {
 	return randomNumber;
 }
 	
-	public int inputChoice(Scanner scan) {
-		String gameString = "";
+	public int inputChoice() {
+		Scanner scan= new Scanner(System.in);
+		String gameString ;
 		int game = 0;
 		
 			while(true) {

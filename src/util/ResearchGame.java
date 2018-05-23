@@ -18,7 +18,7 @@ import researchGame.ResearchGameDuel;
 /**
  * contient les 3 modes de jeu 
  * @author Kaiqiang
- * @version 1.0
+ * @version 2.0
  */
 public class ResearchGame {
 	
@@ -56,11 +56,9 @@ public class ResearchGame {
 		
 		game :while(true) {
 			
-			int game = gameUtil.inputChoice(scan);
+			int game = gameUtil.inputChoice();
 			switch(game) {
-			/**
-			 * Mode Challenger du jeu de recherche 
-			 */
+			
 				
 				case 1 :
 					logger.info("Mode Challenger Sélectionné");
@@ -69,9 +67,6 @@ public class ResearchGame {
 					break game;
 
 					
-					/*
-					 * mode défenseur du Jeu de recherche 
-					 */
 					
 					
 				case 2 :
@@ -80,9 +75,7 @@ public class ResearchGame {
 					researchDefense.reseachDefense();
 					break game;
 					
-				/*
-				 * mode duel du Jeu de Recherche
-				 */
+				
 					
 					
 				case 3 : 
@@ -97,15 +90,28 @@ public class ResearchGame {
 					}
 						
 		ending : while(true) {
+			
 			System.out.println("Vous voulez jouer au même jeu(1)? un autre Jeu(2) ?\n Ou bien quittez l'application ? (3)");
-			switch(scan.nextInt()) {
-				case 1 : researchGames(scan,developer);
-				case 2 : starter.start(scan,developer);
-				case 3 : System.out.println("Au Revoir !");
-						 logger.info("Fin Du Jeu");
-						 break ending;
-				
+			try {
+				Scanner scanner = new Scanner(System.in);
+				switch(scanner.nextInt()) {
+					case 1 : researchGames(scan,developer);
+							 scanner.close();
+					
+					case 2 : starter.start(scan,developer);
+							 scanner.close();
+					
+					case 3 : System.out.println("Au Revoir !");
+							scanner.close();
+						 	logger.info("Fin Du Jeu");
+						 	break ending;
+				}
 			}
+				catch (Exception e) {
+					System.out.println("Astuce, ici il faut rentrer 1 2 ou 3 !");
+					continue;
+				}
 		}
+
 	}
 }

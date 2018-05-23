@@ -25,7 +25,7 @@ public class Starter {
 				System.out.println(choice);
 				
 				try {
-					int game = gameUtil.inputChoice(scan);
+					int game = gameUtil.inputChoice();
 					
 					switch (game) {
 						case 1:

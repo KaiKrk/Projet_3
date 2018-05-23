@@ -8,7 +8,9 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 import util.GameUtilitaire;
-
+/*
+ * mode duel du Jeu de Recherche
+ */
 public class ResearchGameDuel {
 	public void reseachDuel(int developer) {
 		int turn = 1, userValueInt, indexMax,reponse,responseProgram,min,max,userResponseToFind,programValue,
@@ -137,8 +139,8 @@ public class ResearchGameDuel {
 					responseProgramDuel =  responseProgramDuel + addition;
 				}
 				
-				System.out.println("\nLa réponse de l'ordinateur est : " + responseProgramDuel);
-				if(programValueDuelList.equals(responseDuelList)) {
+				System.out.println("\n\nLa réponse de l'ordinateur est : " + responseProgramDuel);
+				if(programValueDuelList.equals(userResponseToFindList)) {
 					System.out.println("L'ordinateur a trouvé il remporte la partie !!!");
 					break Duel;
 				}
