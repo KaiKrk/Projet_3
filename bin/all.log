@@ -147,3 +147,376 @@
 2018-05-16 22:58:26.446 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
 2018-05-16 22:58:28.261 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
 2018-05-17 01:07:41.364 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:04:14.763 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:05:03.346 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:05:42.133 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:47:47.049 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:47:48.512 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-17 08:47:59.347 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-17 08:49:11.564 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:49:13.938 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-17 08:49:47.202 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:49:48.938 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-17 08:50:32.417 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:50:34.373 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-17 08:51:04.982 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:51:07.364 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-17 08:53:41.996 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:53:43.660 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-17 08:54:33.384 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:54:35.518 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-17 08:55:58.442 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:56:00.221 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-17 08:56:50.517 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:56:56.494 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:57:00.754 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:57:03.079 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-17 08:57:47.001 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-17 08:57:48.960 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 08:58:25.290 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 08:58:31.587 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 08:58:32.481 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 09:06:33.252 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 09:06:42.798 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 09:06:43.774 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 09:07:13.517 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 09:07:15.222 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 09:07:15.793 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 09:08:07.742 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 09:08:09.839 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 09:08:10.376 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 09:08:30.437 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 09:08:43.934 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 09:08:48.079 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 09:09:23.195 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 09:09:24.791 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 09:09:25.720 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 09:11:17.453 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 09:11:18.974 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 09:11:28.010 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 09:13:09.159 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 09:13:10.501 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 09:13:11.222 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 09:15:41.522 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 09:15:43.453 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 09:15:44.473 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 13:59:48.638 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 13:59:50.922 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 13:59:52.835 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 14:09:19.735 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 14:09:21.416 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 14:09:21.789 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 14:09:55.646 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 14:09:57.684 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 14:09:58.049 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 14:15:59.059 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 14:16:02.491 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 14:16:02.972 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 14:18:57.678 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 14:22:54.685 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 14:22:56.245 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 14:28:14.118 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 14:28:15.702 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 14:28:16.060 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 14:28:32.629 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 14:28:34.335 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 14:28:34.907 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 14:33:13.264 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 14:33:15.694 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 14:43:25.624 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 14:43:26.001 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 14:44:02.093 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 14:44:03.934 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 14:44:04.275 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 14:44:52.938 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 14:44:54.959 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 14:44:55.322 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 14:53:58.693 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 14:54:00.464 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 14:54:01.533 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-19 14:54:11.360 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 17:58:05.105 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 17:58:05.105 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 17:58:10.823 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 17:58:12.367 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 17:58:41.441 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 17:58:43.807 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 17:58:58.472 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 17:59:00.185 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 17:59:34.730 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 17:59:36.237 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 17:59:43.582 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 17:59:46.480 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 18:01:13.862 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 18:02:14.443 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 18:02:19.743 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 18:02:28.869 [main] INFO  util.Mastermind - Mastermind Mode Defense Lancé
+2018-05-19 18:16:51.064 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 18:16:53.448 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 18:17:02.020 [main] INFO  util.Mastermind - Mastermind Mode Defense Lancé
+2018-05-19 18:37:58.174 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-19 18:37:59.923 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-19 18:38:01.383 [main] INFO  util.Mastermind - Mastermind Mode Defense Lancé
+2018-05-19 18:38:15.561 [main] INFO  util.Mastermind - Fin Du Jeu
+2018-05-20 11:53:03.935 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-20 11:53:14.075 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-20 11:53:15.012 [main] INFO  util.Mastermind - Mastermind Mode Defense Lancé
+2018-05-20 12:00:05.652 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-20 12:00:07.530 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-20 12:00:07.756 [main] INFO  util.Mastermind - Mastermind Mode Defense Lancé
+2018-05-20 12:07:01.267 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-20 12:07:04.675 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-20 12:07:05.844 [main] INFO  util.Mastermind - Mastermind Mode Defense Lancé
+2018-05-21 09:04:44.150 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 09:04:44.150 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 09:04:46.005 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 09:04:47.047 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 09:08:51.976 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 09:08:54.164 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 09:08:54.565 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 09:09:52.150 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 09:09:54.651 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 09:09:55.545 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 09:28:20.886 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 09:28:24.595 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 09:28:30.679 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 09:31:34.757 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 09:31:37.008 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 09:31:37.977 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 09:33:05.606 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 09:33:07.543 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 09:33:08.251 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 09:38:33.861 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 09:38:35.937 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 09:38:36.726 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 09:44:05.262 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 09:44:06.922 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 09:44:07.813 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 09:58:06.140 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 09:58:08.610 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 09:58:09.022 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 09:58:19.576 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 09:58:22.099 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 09:58:22.450 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 10:35:28.462 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 10:35:31.551 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 10:35:31.986 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 10:36:38.447 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 10:36:41.015 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 10:36:41.876 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 10:40:45.521 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 10:40:46.638 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 10:40:48.203 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-21 10:40:52.183 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-21 11:30:00.915 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 11:35:12.121 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 11:35:19.508 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-21 11:35:20.479 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-21 11:35:21.724 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-21 11:35:45.450 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-21 11:37:28.348 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 11:37:29.792 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-21 11:39:36.437 [main] INFO  util.ResearchGame - Fin Du Jeu
+2018-05-21 12:34:19.761 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 12:34:37.993 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 12:34:40.024 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-21 12:34:50.456 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-21 12:35:25.108 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 12:36:03.688 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-21 12:39:17.687 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 12:39:19.648 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-21 12:41:12.604 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-21 12:49:53.724 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-21 12:49:56.106 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-21 12:50:43.192 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 13:22:54.693 [main] INFO  fr.kaiqiang.main.Game - Mode Développeur Activé
+2018-05-22 13:52:49.988 [main] INFO  fr.kaiqiang.main.Game - Mode Développeur Activé
+2018-05-22 14:06:21.739 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:07:51.179 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:07:51.182 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:09:24.558 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:18:28.628 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:18:28.631 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:18:30.624 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:20:09.813 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:20:09.817 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:20:12.999 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:21:20.190 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:21:20.193 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:21:25.830 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:21:52.350 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:21:52.354 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:21:54.378 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:23:15.068 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:23:15.072 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:23:17.280 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:23:43.543 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:23:43.546 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:23:50.276 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:24:20.305 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:24:20.309 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:24:33.891 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:25:26.425 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:25:26.430 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:25:30.551 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:27:15.013 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:27:15.016 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:27:18.552 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-22 14:27:19.440 [main] INFO  util.Mastermind - Mastermind Mode Defense Lancé
+2018-05-22 14:27:27.256 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:27:31.753 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-22 14:28:37.544 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:28:37.547 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:28:39.469 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:31:50.333 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:31:50.337 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:31:52.524 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:33:13.964 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:33:13.967 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:33:15.911 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:33:28.420 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:33:28.422 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:34:24.292 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:34:24.295 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:34:26.246 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:34:36.252 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:34:36.255 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:35:50.279 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:45:37.195 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:45:37.197 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Activé
+2018-05-22 14:45:39.341 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:45:40.104 [main] INFO  util.ResearchGame - Mode Challenger
+2018-05-22 14:49:49.731 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 14:49:49.734 [main] INFO  fr.kaiqiang.main.Game - Mode Développeur Activé
+2018-05-22 14:49:52.454 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 14:49:53.356 [main] INFO  util.ResearchGame - Mode Challenger Sélectionné
+2018-05-22 15:40:45.005 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 15:40:45.007 [main] INFO  fr.kaiqiang.main.Game - Mode Développeur Activé
+2018-05-22 15:40:47.383 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 15:40:49.125 [main] INFO  util.ResearchGame - Mode Challenger Sélectionné
+2018-05-22 15:55:17.591 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 15:55:17.594 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-22 15:55:19.456 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 15:55:19.885 [main] INFO  util.ResearchGame - Mode Challenger Sélectionné
+2018-05-22 15:55:33.041 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 15:55:33.044 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-22 15:55:48.555 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 15:55:48.558 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-22 15:59:56.893 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 15:59:56.896 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-22 15:59:58.510 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-22 16:00:08.641 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 16:00:08.644 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-22 16:04:59.086 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 16:04:59.089 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-22 16:05:07.435 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-22 16:05:07.437 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-22 16:05:15.149 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:00:17.420 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:00:17.424 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:03:56.822 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:03:56.825 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:04:13.330 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:04:32.069 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:04:32.072 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:04:41.776 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 12:07:30.118 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:07:30.120 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:07:36.085 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 12:24:09.485 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:24:09.488 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:24:12.867 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 12:24:28.806 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-23 12:25:28.229 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:25:28.232 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:25:30.420 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 12:25:31.302 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-23 12:26:15.526 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:26:15.529 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:26:18.325 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:26:18.930 [main] INFO  util.ResearchGame - Mode Challenger Sélectionné
+2018-05-23 12:28:17.861 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:28:17.864 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:28:20.542 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 12:28:41.773 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:28:41.775 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:28:43.395 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 12:28:50.785 [main] INFO  util.Mastermind - Mastermind Mode Challenger Lancé
+2018-05-23 12:29:23.221 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:29:23.225 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:29:28.745 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 12:29:31.985 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-23 12:29:54.087 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:29:54.092 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:30:00.027 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 12:30:36.808 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:30:36.811 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:30:46.105 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:30:46.108 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:30:54.974 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:30:54.977 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:31:34.566 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:31:34.570 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:32:02.375 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:32:02.378 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:32:28.606 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 12:33:12.447 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-23 12:33:44.507 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:33:44.511 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:33:53.782 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 12:34:14.408 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-23 12:36:16.302 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:36:16.305 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:36:25.629 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 12:36:28.514 [main] INFO  util.Mastermind - Mastermind Mode Duel Lancé
+2018-05-23 12:36:50.951 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:36:50.959 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:37:04.570 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:37:04.573 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:37:10.168 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:37:25.871 [main] INFO  util.ResearchGame - Mode Challenger Sélectionné
+2018-05-23 12:38:37.313 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:38:37.316 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:38:41.805 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:38:42.788 [main] INFO  util.ResearchGame - Mode Defenseur Sélectionné
+2018-05-23 12:39:10.698 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:41:58.930 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:41:58.934 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:42:28.161 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 12:42:46.364 [main] INFO  util.Mastermind - Mastermind Mode Defense Lancé
+2018-05-23 12:43:44.396 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:43:44.399 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:43:59.283 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:44:13.285 [main] INFO  util.ResearchGame - Mode Defenseur Sélectionné
+2018-05-23 12:46:05.475 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:47:37.555 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:47:37.558 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:47:41.769 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:47:45.646 [main] INFO  util.ResearchGame - Mode Defenseur Sélectionné
+2018-05-23 12:47:52.246 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:49:02.591 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:49:02.597 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:49:06.344 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:49:06.347 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:49:09.212 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:49:34.422 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:49:34.425 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:49:36.968 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:49:40.814 [main] INFO  util.ResearchGame - Mode Defenseur Sélectionné
+2018-05-23 12:52:00.288 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 12:52:00.291 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 12:52:08.345 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 12:52:21.829 [main] INFO  util.ResearchGame - Mode Defenseur Sélectionné
+2018-05-23 12:52:37.615 [main] INFO  util.ResearchGame - Lancement Du Jeu de Recherche
+2018-05-23 13:07:33.539 [main] INFO  util.ResearchGame - Mode Defenseur Sélectionné
+2018-05-23 13:08:16.382 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 13:08:16.386 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 13:08:21.481 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 13:09:02.430 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 13:09:02.435 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 13:09:19.110 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 13:10:10.891 [main] INFO  util.Mastermind - Mastermind Mode Defense Lancé
+2018-05-23 13:10:58.482 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-23 13:10:58.484 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-23 13:11:00.642 [main] INFO  util.Mastermind - Lancement Du Jeu Mastermind
+2018-05-23 13:11:02.394 [main] INFO  util.Mastermind - Mastermind Mode Defense Lancé

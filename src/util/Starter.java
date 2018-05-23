@@ -6,10 +6,8 @@ import java.util.Scanner;
  */
 public class Starter {
 		
-		//Scanner scan = new Scanner(System.in);
-		ResearchGame research = new ResearchGame();
-		Mastermind mastermind = new Mastermind();
-		public void start(Scanner scan) {
+		public void start(Scanner scan, int developer) {
+			GameUtilitaire gameUtil = new GameUtilitaire();
 			String welcome = "-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_\n";
 			welcome += "***Bienvenue dans le Jeu***\n";
 			
@@ -27,23 +25,21 @@ public class Starter {
 				System.out.println(choice);
 				
 				try {
-					int game = 0;
-					String gameString = scan.nextLine();
-					if(gameString.length() == 1){
-						game = Integer.parseInt(gameString);
-					}
+					int game = gameUtil.inputChoice(scan);
+					
 					switch (game) {
 						case 1:
-							research.researchGames(scan);
+							ResearchGame research = new ResearchGame();
+							research.researchGames(scan,developer);
 							break boucle;
 						case 2:
-							mastermind.mastermindGames(scan);
+							Mastermind mastermind = new Mastermind();
+							mastermind.mastermindGames(scan,developer);
 							break boucle;
 					}
 				}
 				catch (Exception e) {
-					
-					start(scan);
+					e.printStackTrace();
 				}
 			}
 			
