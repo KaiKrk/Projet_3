@@ -32,7 +32,7 @@ public class MastermindDuel extends Mastermind {
 		catch (IOException e2) {
 			e2.printStackTrace();
 		}
-		logger.info("Mastermind Mode Duel Lancé");
+		logger.info("Mastermind Mode Duel");
 		turn = 1;
 		essai = Integer.parseInt(prop.getProperty("essai"));
 		numberAllowed = Integer.parseInt(prop.getProperty("numberAllowed"));

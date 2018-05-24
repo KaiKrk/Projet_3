@@ -669,3 +669,7 @@
 2018-05-24 07:57:40.002 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
 2018-05-24 07:57:41.990 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
 2018-05-24 07:57:43.384 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Defense Lancé
+2018-05-24 07:58:52.425 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-05-24 07:58:52.428 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-05-24 07:58:54.576 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-05-24 07:58:55.988 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Defense Lancé

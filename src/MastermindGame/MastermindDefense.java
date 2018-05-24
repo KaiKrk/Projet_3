@@ -30,7 +30,7 @@ public class MastermindDefense extends Mastermind {
 		catch (IOException e2) {
 			e2.printStackTrace();
 		}
-		logger.info("Mastermind Mode Defense Lancé");
+		logger.info("Mastermind Mode Defense");
 		
 		int saisieUtilisateurInt, responseProgram, responseProgramSplit, min, max,index,indexMax,essai,numberAllowed,indexNumber,
 		addition,changeValuePlus,responseValueUser,changeValueMinus;

@@ -34,7 +34,7 @@ public class MastermindChallenger extends Mastermind {
 		catch (IOException e2) {
 			e2.printStackTrace();
 		}
-		logger.info("Mastermind Mode Challenger Lancé");
+		logger.info("Mastermind Mode Challenger");
 		
 
 		
