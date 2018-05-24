@@ -60,7 +60,7 @@ public class ResearchGame {
 			
 				
 				case 1 :
-					logger.info("Mode Challenger Sélectionne");
+					logger.info("Mode Challenger");
 					ResearchGameChallenger researchGame = new ResearchGameChallenger();
 					researchGame.researchChallenger(developer);
 					break game;
@@ -69,7 +69,7 @@ public class ResearchGame {
 					
 					
 				case 2 :
-					logger.info("Mode Defenseur Sélectionne");
+					logger.info("Mode Defenseur");
 					ResearchGameDefense researchDefense = new ResearchGameDefense();
 					researchDefense.reseachDefense();
 					break game;
@@ -78,7 +78,7 @@ public class ResearchGame {
 					
 					
 				case 3 : 
-					logger.info("Mode Duel Sélectionne");
+					logger.info("Mode Duel");
 					ResearchGameDuel researchDuel = new ResearchGameDuel();
 					researchDuel.reseachDuel(developer);
 					break game;
