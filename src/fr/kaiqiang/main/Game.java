@@ -22,18 +22,21 @@ public class Game {
 		int developer;
 		logger.info("Lancement Du Jeu");
 		
-		if(args.length == 0) {
+		if(args.length == 0 ) {
 			logger.info("Mode Joueur Actif");
 			developer = 0;
 			starter.start(scan,developer);
 			}
 			
-		else {
-			if(args[0].equals("developer")) {
+		else if(args[0].equals("developer")) {
 				developer = 1;
 				logger.info("Mode Développeur Actif");
 				starter.start(scan,developer);
-			}
+		}
+		else {
+			logger.info("Mode Joueur Actif");
+			developer = 0;
+			starter.start(scan,developer);
 		}
 			
 		}
