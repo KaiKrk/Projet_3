@@ -1,4 +1,4 @@
-package util;
+package researchGame;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,9 +11,8 @@ import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import researchGame.ResearchGameChallenger;
-import researchGame.ResearchGameDefense;
-import researchGame.ResearchGameDuel;
+import util.GameUtilitaire;
+import util.Starter;
 
 /**
  * contient les 3 modes de jeu 

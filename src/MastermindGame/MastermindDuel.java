@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 import util.GameUtilitaire;
-import util.Mastermind;
 /*
  * mode Duel du Jeu de Mastermind
  */

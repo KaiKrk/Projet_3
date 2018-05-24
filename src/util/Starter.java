@@ -1,6 +1,9 @@
 package util;
 
 import java.util.Scanner;
+
+import MastermindGame.Mastermind;
+import researchGame.ResearchGame;
 /*
  * cette classe sert a envoyer l'utilisateur sur les différents Jeux
  */

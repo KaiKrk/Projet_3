@@ -69,7 +69,9 @@ public class GameUtilitaire {
 	 */
 	
 	public int inputUserValue(int indexMax) {
-		
+		while(indexMax > 10) {
+			indexMax--;
+		}
 		while(true) {
 			System.out.println("Veuillez rentrer votre solution à " +indexMax+ " chiffres : ");
 			saisieUtilisateurStr = scan.nextLine();
@@ -82,6 +84,7 @@ public class GameUtilitaire {
 			}
 			
 			catch (Exception e) {
+				
 				System.out.println("Ah petite erreur, relisez bien la consigne\n ");
 				continue;
 			}
@@ -100,7 +103,9 @@ public int inputUserValueMastermind(int indexMax,int numberAllowed) {
 		for (index = 0; index < indexMax ; index++) {
 			checkInputUser.add(0);
 		}
-		
+		while(indexMax > 10) {
+			indexMax--;
+		}
 		
 		input : while(true) {
 			System.out.println("Veuillez rentrer votre solution à " + indexMax + " chiffres entre 1 et " + numberAllowed +":");
@@ -130,6 +135,7 @@ public int inputUserValueMastermind(int indexMax,int numberAllowed) {
 			
 			catch (Exception e) {
 				scan.close();
+				
 				inputUserValueMastermind(indexMax,numberAllowed);
 			}
 		}

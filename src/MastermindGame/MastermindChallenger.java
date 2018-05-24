@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 import util.GameUtilitaire;
-import util.Mastermind;
 
 
 public class MastermindChallenger extends Mastermind {

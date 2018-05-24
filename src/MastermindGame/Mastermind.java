@@ -1,4 +1,4 @@
-package util;
+package MastermindGame;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -10,9 +10,8 @@ import java.util.Scanner;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import MastermindGame.MastermindChallenger;
-import MastermindGame.MastermindDefense;
-import MastermindGame.MastermindDuel;
+import util.GameUtilitaire;
+import util.Starter;
 
 public class Mastermind {
 	
