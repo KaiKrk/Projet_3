@@ -15,7 +15,7 @@ import util.Starter;
  */
 public class Game {
 	static final Logger logger = LogManager.getLogger();
-	
+//	
 	public static void main(String[] args) throws Exception  {
 		Scanner scan = new Scanner(System.in);
 		Starter starter = new Starter();
@@ -39,6 +39,6 @@ public class Game {
 			starter.start(scan,developer);
 		}
 			
-		}
-	
+	}
 }
+	

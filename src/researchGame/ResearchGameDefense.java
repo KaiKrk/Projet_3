@@ -58,7 +58,7 @@ public class ResearchGameDefense {
 		
 		
 		
-		RDefense : while(essai != 0) {
+		 while(essai != 0) {
 			System.out.println("Nombre d'essai restant : " + essai);
 			
 			if(responseProgram == saisieUtilisateurInt) {

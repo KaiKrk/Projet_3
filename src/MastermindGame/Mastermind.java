@@ -57,7 +57,7 @@ public class Mastermind {
 				break game;
 
 			case 2:
-				MastermindDefense mastermindDefense = new MastermindDefense();
+				MastermindDefense2 mastermindDefense = new MastermindDefense2();
 				mastermindDefense.mastermindDefense();
 				break game;
 				

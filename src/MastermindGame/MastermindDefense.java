@@ -36,6 +36,7 @@ public class MastermindDefense extends Mastermind {
 		addition,changeValuePlus,responseValueUser,changeValueMinus;
 		numberAllowed = Integer.parseInt(prop.getProperty("numberAllowed"));
 		indexMax = Integer.parseInt(prop.getProperty("case"));
+		
 		saisieUtilisateurInt = gameUtil.inputUserValueMastermind(indexMax, numberAllowed);
 
 		responseProgram = gameUtil.generateRandomNumberMastermind(indexMax, numberAllowed);

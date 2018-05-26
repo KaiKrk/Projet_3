@@ -181,7 +181,7 @@ public int generateRandomNumberMastermind(int indexMax, int numberAllowed) {
 }
 	
 	public int inputChoice() {
-		Scanner scan= new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 		String gameString ;
 		int game = 0;
 		
@@ -205,5 +205,31 @@ public int generateRandomNumberMastermind(int indexMax, int numberAllowed) {
 		return game;
 	}
 	
+	public int startAllChoice(int indexMax) {
+		int responseProgram = 0;
+		for(int index= 0; index < indexMax; index++) {
+			int addition = (int) (1*Math.pow(10, indexMax-1-index));
+			responseProgram =  responseProgram + addition;
+		}
+		System.out.println(responseProgram);
+		
+		return  responseProgram;
+	}
+	
+	public int endAllChoice (int indexMax, int numberAllowed) {
+		
+		int responseProgram = 0;
+		for(int index= 0; index < indexMax; index++) {
+			int addition = (int) (numberAllowed*Math.pow(10, indexMax-1-index));
+			responseProgram =  responseProgram + addition;
+		}
+		System.out.println(responseProgram);
+		return responseProgram;
+	}
+	
+	public int returnFirstMastermindValue(int indexMax) {
+		int firstValue = 
+		return
+	}
 	
 }
