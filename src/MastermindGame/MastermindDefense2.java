@@ -32,15 +32,15 @@ public class MastermindDefense2 extends Mastermind {
 		}
 		logger.info("Mastermind Mode Defense");
 		
-		int saisieUtilisateurInt, responseProgram, responseProgramSplit, min, max,index,indexMax,essai,numberAllowed,indexNumber,
-		addition,changeValuePlus,responseValueUser,changeValueMinus,exponant,indexCheck;
+		int saisieUtilisateurInt, responseProgram,index,indexMax,essai,numberAllowed,indexNumber,
+		exponant,indexCheck;
 		numberAllowed = Integer.parseInt(prop.getProperty("numberAllowed"));
 		indexMax = Integer.parseInt(prop.getProperty("case"));
 		
 		saisieUtilisateurInt = gameUtil.inputUserValueMastermind(indexMax, numberAllowed);
 
-//		responseProgram = gameUtil.generateRandomNumberMastermind(indexMax,numberAllowed);
-		responseProgram = 1234;
+		responseProgram = gameUtil.generateRandomNumberMastermind(indexMax,numberAllowed);
+//		responseProgram = 1234;
 
 		essai = Integer.parseInt(prop.getProperty("essai"));
 
@@ -60,9 +60,7 @@ public class MastermindDefense2 extends Mastermind {
 		for (index = smallestValue; index < biggestValue; index++ ) {
 			allPossibilities.add(index);
 		}
-//		for (index = smallestValue; index < biggestValue-smallestValue; index++ ) {
-//			System.out.println(allPossibilities.get(index));
-//		}
+		// initialise toutes les list en ajoutant un 0 pour 
 		for (indexNumber = 0; indexNumber < indexMax; indexNumber++) {
 			allPossibilitiesCheck.add(0);
 			userValueToFindList.add(0);
@@ -112,57 +110,62 @@ public class MastermindDefense2 extends Mastermind {
 			} else {
 				System.out.println("La Reponse de l'ordinateur : " + responseProgram + "\nLa Solution : "
 						+ saisieUtilisateurInt + "\nBien placé : " + RNRP + "\nBien Présent : " + RNWP);
-			
+			//Grande boucle pour ajouter chaque reponse probable a la list guessResponse
 				for(indexCheck = 0; indexCheck < allPossibilities.size();indexCheck++) {
 					
-					for (index = 0; index < indexMax; index++) {
-						
-						userValueToFindCheckList.set(index, userValueToFindList.get(index));
-						
-					}
-					
-					CRNRP = 0; CRNWP=0;
-					for (index = 0; index < indexMax;index++) {
-						
-					}
-					int allPossibilityListValue = allPossibilities.get(indexCheck);
-					
-					exponant = (int) Math.pow(10, indexMax-1);
-					for (index = 0; index < indexMax ; index++) {
-						allPossibilitiesCheck.set(index, allPossibilityListValue / exponant % 10);
-						responseProgramList.set(index, responseProgram / exponant % 10);
-						exponant = exponant / 10;
-					}
-					
-					for (index = 0; index < indexMax; index++) {
-						if (allPossibilitiesCheck.get(index) == responseProgramList.get(index)) {
-							CRNRP++;
-							allPossibilitiesCheck.set(index, -1);
-							responseProgramList.set(index, -2);
-						}
-					}
-					
-					for (index = 0; index < indexMax; index++) {
-						if (allPossibilitiesCheck.contains(responseProgramList.get(index))) {
-							CRNWP++;
-							responseProgramList.set(index, -2);
-						}
-					}
-					if (CRNWP == RNWP && CRNRP == RNRP) {
-						guessResponse.add(allPossibilityListValue);
-					}
+							CRNRP = 0; CRNWP=0;
+							
+							int allPossibilityListValue = allPossibilities.get(indexCheck);
+							
+							exponant = (int) Math.pow(10, indexMax-1);
+							for (index = 0; index < indexMax ; index++) {
+										allPossibilitiesCheck.set(index, allPossibilityListValue / exponant % 10);
+										responseProgramList.set(index, responseProgram / exponant % 10);
+										exponant = exponant / 10;
+							}
+							//analyse si il y a des bien placé 
+							for (index = 0; index < indexMax; index++) {
+									if (allPossibilitiesCheck.get(index) == responseProgramList.get(index)) {
+											CRNRP++;
+											allPossibilitiesCheck.set(index, -1);
+											responseProgramList.set(index, -2);
+									}
+							}
+							//analyse si il y a des bien present
+							for (index = 0; index < indexMax; index++) {
+									if (allPossibilitiesCheck.contains(responseProgramList.get(index))) {
+											CRNWP++;
+											responseProgramList.set(index, -2);
+									}
+							}
+							// si bien placé et bien présent sont identiques aux deux on ajoute a la list
+							if (CRNRP == RNRP && CRNWP == RNWP) {
+									guessResponse.add(allPossibilityListValue);
+							}
+							//affiche la taille de la list des reponses probables
+							int taille  = guessResponse.size();
+							System.out.println("size :" + guessResponse.size());
+							if (taille !=0){
+								//affiche la derniere reponse probables rentrée
+								System.out.println("valeur" + guessResponse.get(taille-1));
+							}
 				}
+				//si la liste est vide renvoie c'est vide
+			
 				if(guessResponse.isEmpty()) {
 					System.out.println("cest vide ");
 				}else {
 					
-					responseProgram = guessResponse.get(0);
+					responseProgram = guessResponse.get(random.nextInt(guessResponse.size()));
 				}
-
+// reduit la liste de tout les possibles a la liste des reponses probables
 				allPossibilities.clear();
 				for (index = 0; index < guessResponse.size();index++) {
-					allPossibilities.add(0);
+						allPossibilities.add(0);
+				}
+				for(index = 0; index < allPossibilities.size();index++) {
 					allPossibilities.set(index, guessResponse.get(index));
+					
 				}
 				guessResponse.clear();
 			}

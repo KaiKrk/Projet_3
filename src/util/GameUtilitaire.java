@@ -227,9 +227,9 @@ public int generateRandomNumberMastermind(int indexMax, int numberAllowed) {
 		return responseProgram;
 	}
 	
-	public int returnFirstMastermindValue(int indexMax) {
-		int firstValue = 
-		return
-	}
-	
+//	public int returnFirstMastermindValue(int indexMax) {
+//		int firstValue = 
+//		return
+//	}
+//	
 }
