@@ -200,12 +200,13 @@ public class MastermindDefense2 extends Mastermind {
 				//System.out.println(isResponse);
 				//si la liste est vide renvoie c'est vide
 
-//				if(guessResponse.isEmpty()) {
+//			if(guessResponse.isEmpty()) {
 //					System.out.println("cest vide ");
-//				}else {
-
-					responseProgram = guessResponse.get(random.nextInt(guessResponse.size()));
-				}
+//			}else {
+//
+//					responseProgram = guessResponse.get(random.nextInt(guessResponse.size()));
+//				}
+				responseProgram = guessResponse.get(random.nextInt(guessResponse.size()));
 // reduit la liste de tout les possibles a la liste des reponses probables
 				allPossibilities.clear();
 				for (index = 0; index < guessResponse.size();index++) {
