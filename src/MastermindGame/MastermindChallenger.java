@@ -9,7 +9,6 @@ import java.util.Properties;
 
 import util.GameUtilitaire;
 
-
 public class MastermindChallenger extends Mastermind {
 	/*
 	 * mode challenger du Jeu de Mastermind
@@ -18,32 +17,28 @@ public class MastermindChallenger extends Mastermind {
 		GameUtilitaire gameUtil = new GameUtilitaire();
 		Properties prop = new Properties();
 		InputStream input = null;
-		
-		int userValue,RNRP,RNWP,exponant,responseToFind,essai,indexMax,numberAllowed;
-		
+
+		int userValue, RNRP, RNWP, exponant, responseToFind, essai, indexMax, numberAllowed;
+
 		try {
 			input = new FileInputStream("config.properties");
-		}
-		catch (FileNotFoundException e2) {
+		} catch (FileNotFoundException e2) {
 			e2.printStackTrace();
 		}
-		
+
 		try {
 			prop.load(input);
-		}
-		catch (IOException e2) {
+		} catch (IOException e2) {
 			e2.printStackTrace();
 		}
 		logger.info("Mastermind Mode Challenger");
-		
 
-		
 		System.out.println("Bienvenue dans le mode challenger du Mastermind\n"
-				+ "Le but : découvrir la combinaison à x chiffres votre adversaire"
+				+ "Le but : dÃ©couvrir la combinaison Ã  x chiffres votre adversaire"
 				+ "\nvotre adversaire indique pour chaque proposition "
 				+ "le nombre de chiffre de la proposition qui apparaissent "
-				+ "à la bonne place et à la mauvaise place dans la combinaison secrète.");
-		
+				+ "Ã  la bonne place et Ã  la mauvaise place dans la combinaison secrÃ¨te.");
+
 		essai = Integer.parseInt(prop.getProperty("essai"));
 		indexMax = Integer.parseInt(prop.getProperty("case"));
 		numberAllowed = Integer.parseInt(prop.getProperty("numberAllowed"));
@@ -52,7 +47,6 @@ public class MastermindChallenger extends Mastermind {
 		ArrayList<Integer> userValueCheckList = new ArrayList<Integer>();
 		ArrayList<Integer> responseToFindList = new ArrayList<Integer>();
 		ArrayList<Integer> responseToFindCheckList = new ArrayList<Integer>();
-		
 
 		for (int index = 0; index < indexMax; index++) {
 			userValueList.add(0);
@@ -61,27 +55,25 @@ public class MastermindChallenger extends Mastermind {
 			responseToFindCheckList.add(0);
 		}
 		responseToFind = gameUtil.generateRandomNumberMastermind(indexMax, numberAllowed);
-		MChallenger : while (essai != 0) {
-			RNRP = 0; RNWP = 0;
+		MChallenger: while (essai != 0) {
+			RNRP = 0;
+			RNWP = 0;
 			// RNRP = Right Number Right Place / RNWP = Right Number Wrong Place
-			
+
 			System.out.println("Nombre d'essai restant : " + essai);
 			if (developer == 1) {
-				System.out.println(""
-						+ "La Reponse Du Jeu est : " + responseToFind);
+				System.out.println("" + "La Reponse Du Jeu est : " + responseToFind);
 			}
-			userValue = gameUtil.inputUserValueMastermind(indexMax,numberAllowed);
+			userValue = gameUtil.inputUserValueMastermind(indexMax, numberAllowed);
 
 			exponant = (int) Math.pow(10, indexMax - 1);
 			for (int index = 0; index < indexMax; index++) {
 				userValueList.set(index, userValue / exponant % 10);
 				responseToFindList.set(index, responseToFind / exponant % 10);
-				
-				
+
 				exponant = exponant / 10;
 			}
 
-			
 			for (int index = 0; index < indexMax; index++) {
 				userValueCheckList.set(index, userValueList.get(index));
 				responseToFindCheckList.set(index, responseToFindList.get(index));
@@ -95,22 +87,21 @@ public class MastermindChallenger extends Mastermind {
 				if (responseToFindCheckList.contains(userValueCheckList.get(index))) {
 					RNWP++;
 				}
-				
+
 			}
 
 			if (RNRP == indexMax) {
-				System.out.println(
-						"Bien placé : " + RNRP + " !!!! \nBravo vous avez réussi, vous avez gagner!!!");
-						break MChallenger;
+				System.out.println("Bien placÃ© : " + RNRP + " !!!! \nBravo vous avez rÃ©ussi, vous avez gagner!!!");
+				break MChallenger;
 			} else {
-				System.out.println("Bien placé : " + RNRP + "\nBien Présent : " + RNWP);
+				System.out.println("Bien placÃ© : " + RNRP + "\nBien PrÃ©sent : " + RNWP);
 			}
 			essai--;
 		}
 		if (essai == 0) {
-			System.out.println("Vous avez perdu!\nVous n'avez pas réussi a trouver la bonne combinaison à temps! "
-							+ "La réponse est : " + responseToFind);
-						
+			System.out.println("Vous avez perdu!\nVous n'avez pas rÃ©ussi a trouver la bonne combinaison Ã  temps! "
+					+ "La rÃ©ponse est : " + responseToFind);
+
 		}
 	}
 }

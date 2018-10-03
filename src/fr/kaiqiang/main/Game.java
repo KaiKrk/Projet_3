@@ -15,30 +15,29 @@ import util.Starter;
  */
 public class Game {
 	static final Logger logger = LogManager.getLogger();
-//	
-	public static void main(String[] args) throws Exception  {
+
+	//
+	public static void main(String[] args) throws Exception {
 		Scanner scan = new Scanner(System.in);
 		Starter starter = new Starter();
 		int developer;
 		logger.info("Lancement Du Jeu");
-		
-		if(args.length == 0 ) {
+
+		if (args.length == 0) {
 			logger.info("Mode Joueur Actif");
 			developer = 0;
-			starter.start(scan,developer);
-			}
-			
-		else if(args[0].equals("developer")) {
-				developer = 1;
-				logger.info("Mode Développeur Actif");
-				starter.start(scan,developer);
+			starter.start(scan, developer);
 		}
-		else {
+
+		else if (args[0].equals("developer")) {
+			developer = 1;
+			logger.info("Mode DÃ©veloppeur Actif");
+			starter.start(scan, developer);
+		} else {
 			logger.info("Mode Joueur Actif");
 			developer = 0;
-			starter.start(scan,developer);
+			starter.start(scan, developer);
 		}
-			
+
 	}
 }
-	

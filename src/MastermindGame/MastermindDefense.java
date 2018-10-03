@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 import util.GameUtilitaire;
+
 /*
  * mode defenseur du Jeu de Mastermind
  */
@@ -16,33 +17,30 @@ public class MastermindDefense extends Mastermind {
 		GameUtilitaire gameUtil = new GameUtilitaire();
 		Properties prop = new Properties();
 		InputStream input = null;
-		
+
 		try {
 			input = new FileInputStream("config.properties");
-		}
-		catch (FileNotFoundException e2) {
+		} catch (FileNotFoundException e2) {
 			e2.printStackTrace();
 		}
-		
+
 		try {
 			prop.load(input);
-		}
-		catch (IOException e2) {
+		} catch (IOException e2) {
 			e2.printStackTrace();
 		}
 		logger.info("Mastermind Mode Defense");
-		
-		int saisieUtilisateurInt, responseProgram, responseProgramSplit, min, max,index,indexMax,essai,numberAllowed,indexNumber,
-		addition,changeValuePlus,responseValueUser,changeValueMinus;
+
+		int saisieUtilisateurInt, responseProgram, responseProgramSplit, min, max, index, indexMax, essai,
+				numberAllowed, indexNumber, addition, changeValuePlus, responseValueUser, changeValueMinus;
 		numberAllowed = Integer.parseInt(prop.getProperty("numberAllowed"));
 		indexMax = Integer.parseInt(prop.getProperty("case"));
-		
+
 		saisieUtilisateurInt = gameUtil.inputUserValueMastermind(indexMax, numberAllowed);
 
 		responseProgram = gameUtil.generateRandomNumberMastermind(indexMax, numberAllowed);
 
 		essai = Integer.parseInt(prop.getProperty("essai"));
-
 
 		ArrayList<Integer> maxList = new ArrayList<Integer>();
 		ArrayList<Integer> minList = new ArrayList<Integer>();
@@ -60,22 +58,22 @@ public class MastermindDefense extends Mastermind {
 			responseProgramCheckList.add(0);
 		}
 
-		MDefense : while (essai != 0) {
-			
+		MDefense: while (essai != 0) {
+
 			int RNRP = 0, RNWP = 0;
 			// RNRP = Right Number Right Place / RNWP = Right Number Wrong Place
-			int exponant = (int) Math.pow(10, indexMax-1);
-			for (index = 0; index < indexMax ; index++) {
+			int exponant = (int) Math.pow(10, indexMax - 1);
+			for (index = 0; index < indexMax; index++) {
 				responseProgramList.set(index, responseProgram / exponant % 10);
-				userValueToFindList.set(index, saisieUtilisateurInt/exponant % 10);
+				userValueToFindList.set(index, saisieUtilisateurInt / exponant % 10);
 				exponant = exponant / 10;
 			}
 
 			for (index = 0; index < indexMax; index++) {
-				
+
 				responseProgramSplit = responseProgramList.get(index);
 				responseValueUser = userValueToFindList.get(index);
-				
+
 				try {
 
 					if (responseProgramSplit < responseValueUser) {
@@ -115,13 +113,13 @@ public class MastermindDefense extends Mastermind {
 					RNWP++;
 				}
 			}
-			
+
 			responseProgram = 0;
-			for(index= 0; index < indexMax; index++) {
-				addition = (int) (responseProgramList.get(index)*Math.pow(10, indexMax-1-index));
-				responseProgram =  responseProgram + addition;
+			for (index = 0; index < indexMax; index++) {
+				addition = (int) (responseProgramList.get(index) * Math.pow(10, indexMax - 1 - index));
+				responseProgram = responseProgram + addition;
 			}
-			
+
 			try {
 				Thread.sleep(500);
 			} catch (InterruptedException e) {
