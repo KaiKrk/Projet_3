@@ -67,6 +67,7 @@ public class MastermindDefense2 extends Mastermind {
 
 		int smallestValue = gameUtil.startAllChoice(indexMax);
 		int biggestValue = gameUtil.endAllChoice(indexMax, numberAllowed);
+
 		for (index = smallestValue; index < biggestValue; index++ ) {
 			allPossibilities.add(index);
 		}
@@ -75,7 +76,7 @@ public class MastermindDefense2 extends Mastermind {
 		cas de numberAllowed = 5, supprime toutes les valeurs contenant un chiffre superieur a 5
 		 */
 		if (indexMax > 5){
-			System.out.println("Le Programme Reflechi patience patience");
+			System.out.println("Le Programme reflechi patience patience...");
 		}
 		for (index =0; index < allPossibilities.size(); index++){
 
@@ -90,9 +91,10 @@ public class MastermindDefense2 extends Mastermind {
 			//System.out.println("index est de " + index);
 			 for (thirdIndex = 0; thirdIndex < indexMax; thirdIndex++){
 
-			 	if (index < 0 ){
-			 		System.out.println(possibleValue);break;
-				}
+//			 	if (index < 0 ){
+//			 		System.out.println(possibleValue);break;
+//				}
+
 			 	if (isValueAllowed.get(thirdIndex) > numberAllowed) {
 			 		allPossibilities.remove(index); index--;break;
 				}
@@ -156,9 +158,9 @@ public class MastermindDefense2 extends Mastermind {
 						responseProgramList.set(index, responseProgram / exponant % 10);
 						exponant = exponant / 10;
 					}
-					if (allPossibilityListValue == saisieUtilisateurInt){
-						System.out.println(allPossibilitiesCheck+" et  "+ responseProgramList);
-					}
+//					if (allPossibilityListValue == saisieUtilisateurInt){
+//						System.out.println(allPossibilitiesCheck+" et  "+ responseProgramList);
+//					}
 					//analyse si il y a des bien placé
 					for (index = 0; index < indexMax; index++) {
 						if (allPossibilitiesCheck.get(index) == responseProgramList.get(index)) {
@@ -167,9 +169,9 @@ public class MastermindDefense2 extends Mastermind {
 							responseProgramList.set(index, -2);
 						}
 					}
-					if (allPossibilityListValue == saisieUtilisateurInt){
-						System.out.println(allPossibilitiesCheck+" et  "+ responseProgramList);
-					}
+//					if (allPossibilityListValue == saisieUtilisateurInt){
+//						System.out.println(allPossibilitiesCheck+" et  "+ responseProgramList);
+//					}
 					//analyse si il y a des bien present
 					for (index = 0; index < indexMax; index++) {
 						if (responseProgramList.contains(allPossibilitiesCheck.get(index))) {

@@ -8,12 +8,15 @@ import java.util.Properties;
 import java.util.Scanner;
 
 import MastermindGame.Mastermind;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import researchGame.ResearchGame;
 
 /*
  * cette classe sert a envoyer l'utilisateur sur les diff�rents Jeux
  */
 public class Starter {
+	static final Logger logger = LogManager.getLogger();
 	Properties prop = new Properties();
 	InputStream input = null;
 
@@ -34,6 +37,7 @@ public class Starter {
 		int developerMod = Integer.parseInt(prop.getProperty("developer"));
 		if(developerMod == 1){
 			developer = 1;
+			logger.info("Mode Développeur Actif");
 		}
 		GameUtilitaire gameUtil = new GameUtilitaire();
 

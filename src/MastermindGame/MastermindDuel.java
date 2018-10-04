@@ -74,16 +74,16 @@ public class MastermindDuel extends Mastermind {
 			responseProgramCheckListDuel.add(0);
 		}
 
-		System.out.println("Tout d'abord il faut entrer la r�ponse que l'ordinateur doit trouver. ");
+		System.out.println("Tout d'abord il faut entrer la reponse que l'ordinateur doit trouver. ");
 		programResponseToFind = gameUtil.inputUserValueMastermind(indexMax, numberAllowed);
 
 		MDuel: while (essai != 0) {
 			RNRP = 0;
 			RNWP = 0;
-			System.out.println("Tour n�" + turn + "\nNombre d'essai restant : " + essai);
+			System.out.println("Tour n'" + turn + "\nNombre d'essai restant : " + essai);
 			if (developer == 1) {
 				System.out.println("La Reponse Du Jeu est : " + responseToFind);
-				gameUtil.inputUserValueMastermind(indexMax, numberAllowed);
+//				gameUtil.inputUserValueMastermind(indexMax, numberAllowed);
 			}
 
 			userValue = gameUtil.inputUserValueMastermind(indexMax, numberAllowed);
