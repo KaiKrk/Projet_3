@@ -538,3 +538,102 @@
 2018-10-04 21:19:12.692 [main] INFO  util.Starter - Mode Développeur Actif
 2018-10-04 21:19:14.784 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
 2018-10-04 21:19:15.824 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 10:32:09.967 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 10:32:09.974 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 10:32:09.975 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 10:32:13.770 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 10:32:15.154 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Defense
+2018-10-05 10:32:28.809 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 10:32:29.729 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Defense
+2018-10-05 10:32:47.217 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 10:32:47.222 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 10:32:47.222 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 10:32:49.706 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 10:32:50.147 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Defense
+2018-10-05 11:13:35.732 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 11:13:35.735 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 11:13:35.736 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 11:13:38.472 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 11:13:39.050 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Defense
+2018-10-05 11:20:45.109 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 11:20:45.113 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 11:20:45.113 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 11:20:48.215 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 11:20:49.134 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Defense
+2018-10-05 11:20:54.995 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 11:20:55.708 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Defense
+2018-10-05 11:22:51.340 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 11:22:51.845 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Defense
+2018-10-05 13:47:43.227 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 13:47:43.230 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 13:47:43.232 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 13:48:06.450 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 13:48:06.962 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 13:50:31.976 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 13:50:31.980 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 13:50:31.980 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 13:50:42.227 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 13:50:42.232 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 13:50:42.233 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 13:50:45.123 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 13:50:46.174 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 13:51:48.707 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 13:51:48.710 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 13:51:48.711 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 13:51:50.867 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 13:51:51.341 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Defense
+2018-10-05 13:52:07.801 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 13:52:07.806 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 13:52:07.806 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 13:52:11.915 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 13:52:12.671 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 13:52:47.852 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 13:52:47.856 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 13:52:47.856 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 13:52:51.483 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 13:52:52.013 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 13:55:22.731 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 13:55:22.736 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 13:55:22.737 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 13:55:30.371 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 13:55:30.724 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 14:02:20.351 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 14:02:20.354 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 14:02:20.355 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 14:02:22.579 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 14:02:23.044 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 14:03:22.712 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 14:03:22.718 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 14:03:22.719 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 14:03:49.676 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 14:03:52.031 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 14:04:46.853 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 14:04:46.857 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 14:04:46.858 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 14:04:51.443 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 14:04:51.852 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 14:06:34.122 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 14:06:36.978 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 14:15:41.535 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 14:15:41.538 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 14:15:41.538 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 14:15:47.692 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 14:15:48.085 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 14:28:09.624 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 14:28:09.628 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 14:28:09.629 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 14:28:12.557 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 14:28:13.023 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Defense
+2018-10-05 14:28:20.180 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 14:28:21.899 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 14:28:22.397 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 14:29:37.109 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 14:29:37.114 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 14:29:37.115 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 14:29:41.070 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 14:29:42.049 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-05 14:33:48.534 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-05 14:33:48.538 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-05 14:33:48.539 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-05 14:33:51.349 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-05 14:33:52.182 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel

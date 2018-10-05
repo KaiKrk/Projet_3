@@ -60,7 +60,7 @@ public class Mastermind {
 				break game;
 
 			case 3:
-				MastermindDuel mastermindDuel = new MastermindDuel();
+				MastermindDuel2 mastermindDuel = new MastermindDuel2();
 				mastermindDuel.mastermindDuel(developer);
 				break game;
 

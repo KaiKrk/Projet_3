@@ -53,7 +53,7 @@ public class MastermindDefense2 extends Mastermind {
 		ArrayList<Integer> guessResponse = new ArrayList<Integer>();
 		ArrayList<Integer> allPossibilities = new ArrayList<Integer>();
 		ArrayList<Integer> allPossibilitiesCheck = new ArrayList<Integer>();
-		ArrayList<Integer> isValueAllowed = new ArrayList<Integer>();
+//		ArrayList<Integer> isValueAllowed = new ArrayList<Integer>();
 
 // initialise toutes les list en ajoutant un 0 pour
 		for (indexNumber = 0; indexNumber < indexMax; indexNumber++) {
@@ -62,7 +62,7 @@ public class MastermindDefense2 extends Mastermind {
 			userValueToFindCheckList.add(0);
 			responseProgramList.add(0);
 			responseProgramCheckList.add(0);
-			isValueAllowed.add(0);
+//			isValueAllowed.add(0);
 		}
 
 		int smallestValue = gameUtil.startAllChoice(indexMax);
@@ -80,27 +80,36 @@ public class MastermindDefense2 extends Mastermind {
 		}
 		for (index =0; index < allPossibilities.size(); index++){
 
+
+//
 			possibleValue = allPossibilities.get(index);
-			exponant = (int) Math.pow(10, indexMax-1);
-			for (secondIndex = 0; secondIndex < indexMax ; secondIndex++) {
 
-
-				isValueAllowed.set(secondIndex, possibleValue / exponant % 10);
-				exponant= exponant / 10;
-			}
-			//System.out.println("index est de " + index);
-			 for (thirdIndex = 0; thirdIndex < indexMax; thirdIndex++){
-
-//			 	if (index < 0 ){
-//			 		System.out.println(possibleValue);break;
-//				}
-
-			 	if (isValueAllowed.get(thirdIndex) > numberAllowed) {
-			 		allPossibilities.remove(index); index--;break;
+			for (int i = numberAllowed +1; i < 10; i++){
+				if (String.valueOf(possibleValue).contains(String.valueOf(i))){
+					allPossibilities.remove(index); index--;break;
 				}
+			}
 
-
-			 }
+//			exponant = (int) Math.pow(10, indexMax-1);
+//			for (secondIndex = 0; secondIndex < indexMax ; secondIndex++) {
+//
+//
+//				isValueAllowed.set(secondIndex, possibleValue / exponant % 10);
+//				exponant= exponant / 10;
+//			}
+//			//System.out.println("index est de " + index);
+//			 for (thirdIndex = 0; thirdIndex < indexMax; thirdIndex++){
+//
+////			 	if (index < 0 ){
+////			 		System.out.println(possibleValue);break;
+////				}
+//
+//			 	if (isValueAllowed.get(thirdIndex) > numberAllowed) {
+//			 		allPossibilities.remove(index); index--;break;
+//				}
+//
+//
+//			 }
 		}
 
 
