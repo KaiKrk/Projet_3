@@ -14,9 +14,8 @@ public class MastermindDuel2 extends Mastermind{
 
 
     public void mastermindDuel(int developer) {
-        int essai, indexMax, responseToFind, responseProgram, responseProgramSplit, min, max, turn, numberAllowed,
-                indexNumber, programResponseToFind, RNRP, RNWP, userValue, exponant, index, changeValuePlus,
-                changeValueMinus, addition;
+        int essai, indexMax, responseToFind, responseProgram, turn, numberAllowed,
+                indexNumber, programResponseToFind, RNRP, RNWP, userValue, exponant, index;
         Random random = new Random();
         GameUtilitaire gameUtil = new GameUtilitaire();
         Properties prop = new Properties();
@@ -101,7 +100,7 @@ public class MastermindDuel2 extends Mastermind{
         while (essai != 0) {
             RNRP = 0;
             RNWP = 0;
-            System.out.println("Tour n'" + turn + "\nNombre d'essai restant : " + essai);
+            System.out.println("\nTour " + turn + "\nNombre d'essai restant : " + essai);
             if (developer == 1) {
                 System.out.println("La Reponse Du Jeu est : " + responseToFind);
 //				gameUtil.inputUserValueMastermind(indexMax, numberAllowed);
@@ -111,7 +110,7 @@ public class MastermindDuel2 extends Mastermind{
 
             exponant = (int) Math.pow(10, indexMax - 1);
 
-            // Rangement des r�ponses/solutions dans leurs List respective
+            // Rangement des réponses/solutions dans leurs List respective
             for (index = 0; index < indexMax; index++) {
                 userValueListDuel.set(index, userValue / exponant % 10);
                 userResponseToFindListDuel.set(index, responseToFind / exponant % 10);
@@ -119,13 +118,13 @@ public class MastermindDuel2 extends Mastermind{
                 exponant = exponant / 10;
             }
 
-            // Creation des List Check identique aux List pr�c�dente
+            // Creation des List Check identique aux List précédente
             for (index = 0; index < indexMax; index++) {
                 userValueCheckListDuel.set(index, userValueListDuel.get(index));
                 userResponseToFindCheckListDuel.set(index, userResponseToFindListDuel.get(index));
                 programResponseToFindCheckListDuel.set(index, programResponseToFindListDuel.get(index));
             }
-            // Verification si il y a des Bien Plac�s
+            // Verification si il y a des Bien Placés
 
             for (index = 0; index < indexMax; index++) {
                 if (userResponseToFindCheckListDuel.get(index) == userValueCheckListDuel.get(index)) {
@@ -135,7 +134,7 @@ public class MastermindDuel2 extends Mastermind{
                 }
             }
 
-            // Verification si il y a des Bien Pr�sent
+            // Verification si il y a des Bien Présent
             for (index = 0; index < indexMax; index++) {
                 if (userResponseToFindCheckListDuel.contains(userValueCheckListDuel.get(index))) {
                     RNWP++;
@@ -143,11 +142,20 @@ public class MastermindDuel2 extends Mastermind{
             }
 
             if (RNRP == indexMax) {
-                System.out.println("Bien plac� : " + RNRP + " !!!! \nBravo vous avez r�ussi, vous avez gagner!!!");
+                System.out.println("Bien placé : " + RNRP + " !!!! \nBravo vous avez réussi, vous avez gagner!!!");
                 break MDuel;
 
             }
+
             else{
+                System.out.println("Bien placé : " + RNRP + "\nBien Présent : " + RNWP);
+                try {
+                    Thread.sleep(500);
+                } catch (InterruptedException e) {
+                    continue;
+                }
+
+
 
 
                 if (indexMax > 5){
@@ -205,12 +213,12 @@ public class MastermindDuel2 extends Mastermind{
                     break MDuel;}
 
                 else {
-                    System.out.println("Bien placé : " + RNRP + "\nBien Présent : " + RNWP);
+
 
                     System.out.println("La Reponse de l'ordinateur : " + responseProgram + "\nLa Solution : "
                             + programResponseToFind + "\nBien placé : " + RNRP + "\nBien Présent : " + RNWP);
                     //Grande boucle pour ajouter chaque reponse probable a la list guessResponse
-                    System.out.println("allposs avant la boucle " + allPossibilities.size());
+//                    System.out.println("allposs avant la boucle " + allPossibilities.size());
                     for(indexCheck = 0; indexCheck < allPossibilities.size();indexCheck++) {
 
                         CRNRP = 0;
@@ -244,7 +252,7 @@ public class MastermindDuel2 extends Mastermind{
                         }
                     }
                         responseProgram = guessResponse.get(random.nextInt(guessResponse.size()));
-                    System.out.println("****" + guessResponse.size());
+//                    System.out.println("****" + guessResponse.size());
 // reduit la liste de tout les possibles a la liste des reponses probables
                         allPossibilities.clear();
                         for (index = 0; index < guessResponse.size();index++) {
@@ -255,12 +263,12 @@ public class MastermindDuel2 extends Mastermind{
 
                         }
                         guessResponse.clear();
-                    System.out.println("allposs apres la boucle " + allPossibilities.size());
+//                    System.out.println("allposs apres la boucle " + allPossibilities.size());
 
 
 
 
-                    essai--;
+                    essai--;turn++;
 
                 }
 

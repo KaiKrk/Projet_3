@@ -33,14 +33,13 @@ public class MastermindDefense2 extends Mastermind {
 		logger.info("Mastermind Mode Defense");
 
 		int saisieUtilisateurInt, responseProgram,index,indexMax,essai,numberAllowed,indexNumber,
-				exponant,indexCheck, possibleValue, secondIndex, thirdIndex;
+				exponant,indexCheck, possibleValue;
 		numberAllowed = Integer.parseInt(prop.getProperty("numberAllowed"));
 		indexMax = Integer.parseInt(prop.getProperty("case"));
 
 		saisieUtilisateurInt = gameUtil.inputUserValueMastermind(indexMax, numberAllowed);
 
 		responseProgram = gameUtil.generateRandomNumberMastermind(indexMax,numberAllowed);
-//		responseProgram = 1234;
 
 		essai = Integer.parseInt(prop.getProperty("essai"));
 
@@ -53,7 +52,7 @@ public class MastermindDefense2 extends Mastermind {
 		ArrayList<Integer> guessResponse = new ArrayList<Integer>();
 		ArrayList<Integer> allPossibilities = new ArrayList<Integer>();
 		ArrayList<Integer> allPossibilitiesCheck = new ArrayList<Integer>();
-//		ArrayList<Integer> isValueAllowed = new ArrayList<Integer>();
+
 
 // initialise toutes les list en ajoutant un 0 pour
 		for (indexNumber = 0; indexNumber < indexMax; indexNumber++) {
@@ -90,26 +89,6 @@ public class MastermindDefense2 extends Mastermind {
 				}
 			}
 
-//			exponant = (int) Math.pow(10, indexMax-1);
-//			for (secondIndex = 0; secondIndex < indexMax ; secondIndex++) {
-//
-//
-//				isValueAllowed.set(secondIndex, possibleValue / exponant % 10);
-//				exponant= exponant / 10;
-//			}
-//			//System.out.println("index est de " + index);
-//			 for (thirdIndex = 0; thirdIndex < indexMax; thirdIndex++){
-//
-////			 	if (index < 0 ){
-////			 		System.out.println(possibleValue);break;
-////				}
-//
-//			 	if (isValueAllowed.get(thirdIndex) > numberAllowed) {
-//			 		allPossibilities.remove(index); index--;break;
-//				}
-//
-//
-//			 }
 		}
 
 
@@ -167,9 +146,6 @@ public class MastermindDefense2 extends Mastermind {
 						responseProgramList.set(index, responseProgram / exponant % 10);
 						exponant = exponant / 10;
 					}
-//					if (allPossibilityListValue == saisieUtilisateurInt){
-//						System.out.println(allPossibilitiesCheck+" et  "+ responseProgramList);
-//					}
 					//analyse si il y a des bien placé
 					for (index = 0; index < indexMax; index++) {
 						if (allPossibilitiesCheck.get(index) == responseProgramList.get(index)) {
@@ -178,9 +154,6 @@ public class MastermindDefense2 extends Mastermind {
 							responseProgramList.set(index, -2);
 						}
 					}
-//					if (allPossibilityListValue == saisieUtilisateurInt){
-//						System.out.println(allPossibilitiesCheck+" et  "+ responseProgramList);
-//					}
 					//analyse si il y a des bien present
 					for (index = 0; index < indexMax; index++) {
 						if (responseProgramList.contains(allPossibilitiesCheck.get(index))) {
@@ -194,29 +167,7 @@ public class MastermindDefense2 extends Mastermind {
 					if (CRNRP == RNRP && CRNWP == RNWP) {
 						guessResponse.add(allPossibilityListValue);
 					}
-					//if (allPossibilityListValue == saisieUtilisateurInt){
-					//	System.out.println("Crnrp =" + CRNRP+" RNRP" + RNRP +" CRNWP "+ CRNWP + "RNWP"+ RNWP);
-					//	System.out.println(allPossibilitiesCheck+" et  "+ responseProgramList);
-					//}
-					//affiche la taille de la list des reponses probables
-//					int taille  = guessResponse.size();
-//					System.out.println("size :" + guessResponse.size());
-//					if (taille !=0){
-//						//affiche la derniere reponse probables rentrée
-//						System.out.println("valeur" + guessResponse.get(taille-1));
-//					}
 				}
-				//boolean isResponse = false;
-				//if (guessResponse.contains(saisieUtilisateurInt))isResponse = true;
-				//System.out.println(isResponse);
-				//si la liste est vide renvoie c'est vide
-
-//			if(guessResponse.isEmpty()) {
-//					System.out.println("cest vide ");
-//			}else {
-//
-//					responseProgram = guessResponse.get(random.nextInt(guessResponse.size()));
-//				}
 				responseProgram = guessResponse.get(random.nextInt(guessResponse.size()));
 // reduit la liste de tout les possibles a la liste des reponses probables
 				allPossibilities.clear();
@@ -232,7 +183,11 @@ public class MastermindDefense2 extends Mastermind {
 
 
 			essai--;
-
+			try {
+				Thread.sleep(500);
+			} catch (InterruptedException e) {
+				continue;
+			}
 		}
 
 	}

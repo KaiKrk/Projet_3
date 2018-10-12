@@ -45,9 +45,9 @@ public class ResearchGame {
 		}
 
 		System.out.println("Bienvenue dans le Jeu de Recherche," + "\nIl y a dans ce Jeu 3 modes : "
-				+ "\nJeu n�1 : Challenger o� vous devez trouver la combinaison secr�te de l'ordinateur"
-				+ "\nJeu n�2 : D�fenseur o� c'est � l'ordinateur de trouver votre combinaison secr�te"
-				+ "\nJeu n�3 : Duel o� l'ordinateur et vous jouez tour � tour, le premier � trouver la combinaison secr�te de l'autre a gagn�"
+				+ "\nJeu n°1 : Challenger où vous devez trouver la combinaison secrète de l'ordinateur"
+				+ "\nJeu n°2 : Défenseur où c'est à l'ordinateur de trouver votre combinaison secrète"
+				+ "\nJeu n°3 : Duel où l'ordinateur et vous jouez tour à tour, le premier à trouver la combinaison secrète de l'autre a gagné"
 				+ "\nEntrez votre choix en rentrant 1, 2 ou 3");
 
 		game: while (true) {
@@ -80,7 +80,7 @@ public class ResearchGame {
 		ending: while (true) {
 
 			System.out.println(
-					"Vous voulez jouer au m�me jeu(1)? un autre Jeu(2) ?\n Ou bien quittez l'application ? (3)");
+					"Vous voulez jouer au même jeu(1)? un autre Jeu(2) ?\n Ou bien quittez l'application ? (3)");
 			try {
 				Scanner scanner = new Scanner(System.in);
 				switch (scanner.nextInt()) {

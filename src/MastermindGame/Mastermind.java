@@ -19,7 +19,7 @@ public class Mastermind {
 			+ "\nJeu n°1 : Challenger où vous devez trouver la combinaison secrète de l'ordinateur"
 			+ "\nJeu n°2 : Défenseur où c'est à l'ordinateur de trouver votre combinaison secrète"
 			+ "\nJeu n°3 : Duel où l'ordinateur et vous jouez tour à tour, le premier à trouver la combinaison secrète de l'autre a gagné"
-			+ "Entrez votre choix en rentrant 1, 2 ou 3";
+			+ "\nEntrez votre choix en rentrant 1, 2 ou 3";
 
 	GameUtilitaire gameUtil = new GameUtilitaire();
 	public final Logger logger = LogManager.getLogger();
@@ -34,13 +34,13 @@ public class Mastermind {
 		try {
 			input = new FileInputStream("config.properties");
 		} catch (FileNotFoundException e2) {
-			e2.printStackTrace();
+
 		}
 
 		try {
 			prop.load(input);
 		} catch (IOException e2) {
-			e2.printStackTrace();
+
 		}
 
 		System.out.println(mastermindIntro);

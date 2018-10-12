@@ -9,7 +9,7 @@ import java.util.Properties;
 
 import util.GameUtilitaire;
 /*
- * mode d�fenseur du Jeu de recherche 
+ * mode défenseur du Jeu de recherche
  */
 
 public class ResearchGameDefense {

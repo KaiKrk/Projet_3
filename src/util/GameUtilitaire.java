@@ -49,7 +49,7 @@ public class GameUtilitaire {
 	}
 
 	/*
-	 * permet de nouvelles r�ponse en fonction des r�ponse pr�c�dente
+	 * permet de nouvelles réponse en fonction des réponse précédente
 	 * 
 	 * @param min, max
 	 */
@@ -76,7 +76,7 @@ public class GameUtilitaire {
 			indexMax--;
 		}
 		while (true) {
-			System.out.println("Veuillez rentrer votre solution � " + indexMax + " chiffres : ");
+			System.out.println("Veuillez rentrer votre solution à " + indexMax + " chiffres : ");
 			saisieUtilisateurStr = scan.nextLine();
 
 			try {
@@ -113,7 +113,7 @@ public class GameUtilitaire {
 
 		input: while (true) {
 			System.out.println(
-					"Veuillez rentrer votre solution � " + indexMax + " chiffres entre 1 et " + numberAllowed + ":");
+					"Veuillez rentrer votre solution à " + indexMax + " chiffres entre 1 et " + numberAllowed + ":");
 			saisieUtilisateurStr = scan.next();
 
 			try {
@@ -199,7 +199,7 @@ public class GameUtilitaire {
 			if (game == 1 || game == 2 || game == 3) {
 				break;
 			} else {
-				System.out.println("Astuce : Ici il faut rentrer un des chiffres propos�s au dessus ! ");
+				System.out.println("Astuce : Ici il faut rentrer un des chiffres proposés au dessus ! ");
 				continue;
 			}
 		}
@@ -212,7 +212,7 @@ public class GameUtilitaire {
 			int addition = (int) (1 * Math.pow(10, indexMax - 1 - index));
 			responseProgram = responseProgram + addition;
 		}
-		System.out.println(responseProgram);
+//		System.out.println(responseProgram);
 
 		return responseProgram;
 	}
@@ -224,7 +224,7 @@ public class GameUtilitaire {
 			int addition = (int) (numberAllowed * Math.pow(10, indexMax - 1 - index));
 			responseProgram = responseProgram + addition;
 		}
-		System.out.println(responseProgram);
+//		System.out.println(responseProgram);
 		return responseProgram;
 	}
 

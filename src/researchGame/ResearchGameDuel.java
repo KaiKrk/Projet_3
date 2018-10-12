@@ -135,16 +135,16 @@ public class ResearchGameDuel {
 				responseProgramDuel = responseProgramDuel + addition;
 			}
 
-			System.out.println("\n\nLa r�ponse de l'ordinateur est : " + responseProgramDuel);
+			System.out.println("\n\nLa réponse de l'ordinateur est : " + responseProgramDuel);
 			if (programValueDuelList.equals(userResponseToFindList)) {
-				System.out.println("L'ordinateur a trouv� il remporte la partie !!!");
+				System.out.println("L'ordinateur a trouvé il remporte la partie !!!");
 				break Duel;
 			} else {
 				essai--;
 				turn++;
 			}
 			if (essai == 0) {
-				System.out.println("Match Nul !!\nNi vous ni l'ordinateur n'a pu trouver la combinaison � temps");
+				System.out.println("Match Nul !!\nNi vous ni l'ordinateur n'a pu trouver la combinaison à temps");
 				break Duel;
 			}
 		}
