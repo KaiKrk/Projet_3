@@ -9,14 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/MastermindGame/MastermindChallenger.java" line="11" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="348ae97b-facc-4152-b588-a7c7afe07885" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Project_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Project_3_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.idea/artifacts/Project_3_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.idea/artifacts/Project_3_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/MastermindGame/MastermindDefense2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MastermindGame/MastermindDefense2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/bin/all.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/util/GameUtilitaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/GameUtilitaire.class" afterDir="false" />
-    </list>
+    <list default="true" id="348ae97b-facc-4152-b588-a7c7afe07885" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
