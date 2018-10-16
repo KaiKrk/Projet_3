@@ -746,3 +746,9 @@
 2018-10-12 12:29:18.536 [main] INFO  util.Starter - Mode Développeur Actif
 2018-10-12 12:29:21.363 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
 2018-10-12 12:29:22.099 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel
+2018-10-16 11:16:12.316 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-16 11:16:12.321 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-16 11:16:12.322 [main] INFO  util.Starter - Mode Developpeur Actif
+2018-10-16 11:16:15.057 [main] INFO  researchGame.ResearchGame - Lancement Du Jeu de Recherche
+2018-10-16 11:16:16.314 [main] INFO  researchGame.ResearchGame - Mode Challenger
+2018-10-16 11:16:21.296 [main] INFO  researchGame.ResearchGame - Fin Du Jeu
