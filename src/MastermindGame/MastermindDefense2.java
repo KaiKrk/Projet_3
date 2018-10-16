@@ -61,7 +61,6 @@ public class MastermindDefense2 extends Mastermind {
 			userValueToFindCheckList.add(0);
 			responseProgramList.add(0);
 			responseProgramCheckList.add(0);
-//			isValueAllowed.add(0);
 		}
 
 		int smallestValue = gameUtil.startAllChoice(indexMax);
@@ -80,7 +79,6 @@ public class MastermindDefense2 extends Mastermind {
 		for (index =0; index < allPossibilities.size(); index++){
 
 
-//
 			possibleValue = allPossibilities.get(index);
 
 			for (int i = numberAllowed +1; i < 10; i++){
@@ -133,6 +131,7 @@ public class MastermindDefense2 extends Mastermind {
 			} else {
 				System.out.println("La Reponse de l'ordinateur : " + responseProgram + "\nLa Solution : "
 						+ saisieUtilisateurInt + "\nBien placé : " + RNRP + "\nBien Présent : " + RNWP);
+
 				//Grande boucle pour ajouter chaque reponse probable a la list guessResponse
 				for(indexCheck = 0; indexCheck < allPossibilities.size();indexCheck++) {
 

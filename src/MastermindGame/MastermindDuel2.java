@@ -58,7 +58,7 @@ public class MastermindDuel2 extends Mastermind{
 
         indexMax = Integer.parseInt(prop.getProperty("case"));
 
-        // solution que  le joueur doivent trouver
+        // solution que  le joueur doit trouver
         responseToFind = gameUtil.generateRandomNumberMastermind(indexMax, numberAllowed);
 
         responseProgram = gameUtil.generateRandomNumberMastermind(indexMax, numberAllowed);
@@ -103,7 +103,6 @@ public class MastermindDuel2 extends Mastermind{
             System.out.println("\nTour " + turn + "\nNombre d'essai restant : " + essai);
             if (developer == 1) {
                 System.out.println("La Reponse Du Jeu est : " + responseToFind);
-//				gameUtil.inputUserValueMastermind(indexMax, numberAllowed);
             }
 
             userValue = gameUtil.inputUserValueMastermind(indexMax, numberAllowed);
@@ -164,7 +163,6 @@ public class MastermindDuel2 extends Mastermind{
                 for (index =0; index < allPossibilities.size(); index++) {
 
 
-//
                     possibleValue = allPossibilities.get(index);
 
                     for (int i = numberAllowed + 1; i < 10; i++) {
@@ -217,8 +215,8 @@ public class MastermindDuel2 extends Mastermind{
 
                     System.out.println("La Reponse de l'ordinateur : " + responseProgram + "\nLa Solution : "
                             + programResponseToFind + "\nBien placé : " + RNRP + "\nBien Présent : " + RNWP);
+
                     //Grande boucle pour ajouter chaque reponse probable a la list guessResponse
-//                    System.out.println("allposs avant la boucle " + allPossibilities.size());
                     for(indexCheck = 0; indexCheck < allPossibilities.size();indexCheck++) {
 
                         CRNRP = 0;
@@ -252,7 +250,7 @@ public class MastermindDuel2 extends Mastermind{
                         }
                     }
                         responseProgram = guessResponse.get(random.nextInt(guessResponse.size()));
-//                    System.out.println("****" + guessResponse.size());
+
 // reduit la liste de tout les possibles a la liste des reponses probables
                         allPossibilities.clear();
                         for (index = 0; index < guessResponse.size();index++) {
@@ -263,7 +261,6 @@ public class MastermindDuel2 extends Mastermind{
 
                         }
                         guessResponse.clear();
-//                    System.out.println("allposs apres la boucle " + allPossibilities.size());
 
 
 

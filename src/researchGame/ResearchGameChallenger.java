@@ -84,7 +84,7 @@ public class ResearchGameChallenger {
 			}
 		}
 		if (essai == 0)
-			System.out.println("\nLa Solution est : " + reponse);
+			System.out.println("Vous avez perdu.\nLa Solution est : " + reponse);
 
 	}
 }

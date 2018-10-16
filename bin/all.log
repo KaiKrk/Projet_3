@@ -734,3 +734,15 @@
 2018-10-12 10:54:03.193 [main] INFO  researchGame.ResearchGame - Lancement Du Jeu de Recherche
 2018-10-12 10:54:04.150 [main] INFO  researchGame.ResearchGame - Mode Challenger
 2018-10-12 11:02:45.782 [main] INFO  researchGame.ResearchGame - Fin Du Jeu
+2018-10-12 11:14:00.593 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-12 11:14:00.596 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-12 11:14:02.817 [main] INFO  researchGame.ResearchGame - Lancement Du Jeu de Recherche
+2018-10-12 11:14:03.884 [main] INFO  researchGame.ResearchGame - Mode Challenger
+2018-10-12 12:29:02.455 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-12 12:29:02.460 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-12 12:29:02.460 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-12 12:29:18.531 [main] INFO  fr.kaiqiang.main.Game - Lancement Du Jeu
+2018-10-12 12:29:18.535 [main] INFO  fr.kaiqiang.main.Game - Mode Joueur Actif
+2018-10-12 12:29:18.536 [main] INFO  util.Starter - Mode Développeur Actif
+2018-10-12 12:29:21.363 [main] INFO  MastermindGame.Mastermind - Lancement Du Jeu Mastermind
+2018-10-12 12:29:22.099 [main] INFO  MastermindGame.Mastermind - Mastermind Mode Duel

@@ -11,13 +11,13 @@ import util.Starter;
  * Jeu comprenant un Jeu de Recherche de combinaison et un jeu de Mastermind 
  * Chaque Jeu contient 3 modes Challenger/Defenseur/Duel
  * @Kaiqiang
- * @version 1.0
+ * @version 2.0
  */
 public class Game {
 	static final Logger logger = LogManager.getLogger();
 
 	//
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args){
 		Scanner scan = new Scanner(System.in);
 		Starter starter = new Starter();
 		int developer;
@@ -31,7 +31,7 @@ public class Game {
 
 		else if (args[0].equals("developer")) {
 			developer = 1;
-			logger.info("Mode Développeur Actif");
+			logger.info("Mode Developpeur Actif");
 			starter.start(scan, developer);
 		} else {
 			logger.info("Mode Joueur Actif");

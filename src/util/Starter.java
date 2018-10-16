@@ -13,7 +13,7 @@ import org.apache.logging.log4j.Logger;
 import researchGame.ResearchGame;
 
 /*
- * cette classe sert a envoyer l'utilisateur sur les diff�rents Jeux
+ * cette classe sert a envoyer l'utilisateur sur les différents Jeux
  */
 public class Starter {
 	static final Logger logger = LogManager.getLogger();
@@ -37,7 +37,7 @@ public class Starter {
 		int developerMod = Integer.parseInt(prop.getProperty("developer"));
 		if(developerMod == 1){
 			developer = 1;
-			logger.info("Mode Développeur Actif");
+			logger.info("Mode Developpeur Actif");
 		}
 		GameUtilitaire gameUtil = new GameUtilitaire();
 

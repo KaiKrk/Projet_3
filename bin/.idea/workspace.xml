@@ -1,29 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Project_3:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/MastermindGame/MastermindChallenger.java" line="11" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="348ae97b-facc-4152-b588-a7c7afe07885" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Project_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/.idea/artifacts/Project_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/all.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/MastermindGame/Mastermind.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MastermindGame/Mastermind.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/MastermindGame/MastermindDefense2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MastermindGame/MastermindDefense2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/MastermindGame/MastermindDuel2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/MastermindGame/MastermindDuel2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/all.log" beforeDir="false" afterPath="$PROJECT_DIR$/bin/all.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/researchGame/ResearchGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/researchGame/ResearchGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/researchGame/ResearchGameDuel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/researchGame/ResearchGameDuel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bin/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/fr/kaiqiang/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/fr/kaiqiang/main/Game.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/util/GameUtilitaire.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/GameUtilitaire.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MastermindGame/Mastermind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MastermindGame/Mastermind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MastermindGame/MastermindDefense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/util/Starter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/util/Starter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MastermindGame/MastermindDefense2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MastermindGame/MastermindDefense2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MastermindGame/MastermindDuel.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MastermindGame/MastermindDuel2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MastermindGame/MastermindDuel2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/researchGame/ResearchGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/researchGame/ResearchGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/researchGame/ResearchGameDefense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/researchGame/ResearchGameDefense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/kaiqiang/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/kaiqiang/main/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/researchGame/ResearchGameChallenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/researchGame/ResearchGameChallenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/researchGame/ResearchGameDuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/researchGame/ResearchGameDuel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/GameUtilitaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/GameUtilitaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/Starter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,29 +45,30 @@
     <session id="-1083844813">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="11" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="3" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="6" />
-          <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="7" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="45" />
-          <entry key="log" value="1" />
+          <entry key="java" value="52" />
+          <entry key="log" value="2" />
           <entry key="project" value="1" />
-          <entry key="properties" value="1" />
+          <entry key="properties" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -67,113 +77,35 @@
           <entry key="CLASS" value="2" />
           <entry key="Eclipse" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="45" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="1" />
+          <entry key="JAVA" value="52" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2297" />
-          <entry key="properties" value="91" />
+          <entry key="java" value="2432" />
+          <entry key="properties" value="97" />
           <entry key="txt" value="226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2297" />
+          <entry key="JAVA" value="2432" />
           <entry key="PLAIN_TEXT" value="226" />
-          <entry key="Properties" value="91" />
+          <entry key="Properties" value="97" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindChallenger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1780">
-              <caret line="96" column="88" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/researchGame/ResearchGameDefense.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindDefense2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2514">
-              <caret line="180" column="38" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindDuel2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2940">
-              <caret line="155" column="17" selection-start-line="151" selection-start-column="16" selection-end-line="155" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/GameUtilitaire.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="51" column="62" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/kaiqiang/main/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/Starter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1300">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MastermindGame/Mastermind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/researchGame/ResearchGameDuel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2600">
-              <caret line="137" column="41" selection-start-line="137" selection-start-column="41" selection-end-line="137" selection-end-column="41" />
+            <state relative-caret-position="280">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -202,35 +134,34 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Project_3.iml" />
-        <option value="$PROJECT_DIR$/src/fr/kaiqiang/main/Game.java" />
-        <option value="$PROJECT_DIR$/src/researchGame/ResearchGameChallenger.java" />
-        <option value="$PROJECT_DIR$/src/util/Starter.java" />
         <option value="$PROJECT_DIR$/src/MastermindGame/MastermindDuel.java" />
-        <option value="$PROJECT_DIR$/config.properties" />
-        <option value="$PROJECT_DIR$/src/MastermindGame/MastermindDuel2.java" />
         <option value="$PROJECT_DIR$/src/researchGame/ResearchGameDefense.java" />
         <option value="$PROJECT_DIR$/src/researchGame/ResearchGame.java" />
+        <option value="$PROJECT_DIR$/src/MastermindGame/Mastermind.java" />
+        <option value="$PROJECT_DIR$/src/util/Starter.java" />
+        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/src/MastermindGame/MastermindDefense2.java" />
+        <option value="$PROJECT_DIR$/src/MastermindGame/MastermindDuel2.java" />
         <option value="$PROJECT_DIR$/src/researchGame/ResearchGameDuel.java" />
         <option value="$PROJECT_DIR$/src/util/GameUtilitaire.java" />
-        <option value="$PROJECT_DIR$/src/MastermindGame/Mastermind.java" />
-        <option value="$PROJECT_DIR$/src/MastermindGame/MastermindDefense2.java" />
+        <option value="$PROJECT_DIR$/src/researchGame/ResearchGameChallenger.java" />
+        <option value="$PROJECT_DIR$/src/fr/kaiqiang/main/Game.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1740" />
-    <option name="y" value="167" />
-    <option name="width" value="1551" />
-    <option name="height" value="879" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,10 +207,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539328847866" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539680567256" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -298,7 +230,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Game">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fr.kaiqiang.main.Game" />
       <module name="Project_3" />
@@ -312,6 +244,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Game.jar" type="JarApplication" factoryName="JAR Application">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/Game.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.Game.jar" />
+      <item itemvalue="Application.Game" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Game" />
@@ -347,14 +288,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-1" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.13113007" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.11247335" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.32885906" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50939596" side_tool="true" weight="0.44563758" />
@@ -391,7 +333,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MastermindGame/MastermindDuel2.java</url>
-          <line>128</line>
+          <line>127</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
@@ -418,82 +360,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindDuel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1560">
-          <caret line="85" column="75" selection-start-line="85" selection-start-column="75" selection-end-line="85" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindDuel.java" />
     <entry file="file://$PROJECT_DIR$/ressources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindDefense.java" />
+    <entry file="file://$PROJECT_DIR$/src/util/Starter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/all.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/researchGame/ResearchGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/researchGame/ResearchGameChallenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-746">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindChallenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1780">
-          <caret line="96" column="88" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="88" />
-        </state>
+        <state relative-caret-position="-1620" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/researchGame/ResearchGameDefense.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="-640">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindDuel2.java">
+    <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindDefense2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2940">
-          <caret line="155" column="17" selection-start-line="151" selection-start-column="16" selection-end-line="155" selection-end-column="17" />
+        <state relative-caret-position="320">
+          <caret line="127" column="35" lean-forward="true" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/GameUtilitaire.java">
+    <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindDuel2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="51" column="62" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="62" />
+        <state relative-caret-position="874">
+          <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/kaiqiang/main/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/researchGame/ResearchGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="56" />
+        <state relative-caret-position="754">
+          <caret line="82" column="44" selection-start-line="82" selection-start-column="44" selection-end-line="82" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/Starter.java">
+    <entry file="file://$PROJECT_DIR$/src/researchGame/ResearchGameChallenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1300">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        <state relative-caret-position="794">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
@@ -504,27 +432,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindDefense.java">
+    <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindChallenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="874">
+          <caret line="96" column="88" selection-start-line="96" selection-start-column="16" selection-end-line="96" selection-end-column="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/researchGame/ResearchGameDuel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2600">
-          <caret line="137" column="41" selection-start-line="137" selection-start-column="41" selection-end-line="137" selection-end-column="41" />
+        <state relative-caret-position="20">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MastermindGame/MastermindDefense2.java">
+    <entry file="file://$PROJECT_DIR$/src/util/GameUtilitaire.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2514">
-          <caret line="180" column="38" selection-start-line="180" selection-start-column="38" selection-end-line="180" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="20">
+          <caret line="184" column="41" selection-start-line="184" selection-start-column="41" selection-end-line="184" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/kaiqiang/main/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
         </state>
       </provider>
     </entry>

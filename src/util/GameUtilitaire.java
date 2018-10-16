@@ -8,7 +8,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class GameUtilitaire {
-	static final Logger logger = LogManager.getLogger();
 	Scanner scan = new Scanner(System.in);
 	int saisieUtilisateur, randomNumber, max, min;
 	String saisieUtilisateurStr;
@@ -50,7 +49,7 @@ public class GameUtilitaire {
 
 	/*
 	 * permet de nouvelles réponse en fonction des réponse précédente
-	 * 
+	 * Jeu de recherche
 	 * @param min, max
 	 */
 	public int generateRandomNumberBounds(int min, int max) {
@@ -96,7 +95,7 @@ public class GameUtilitaire {
 	}
 
 	/*
-	 * 
+	 * demande a l'utilisateur de rentrer sa combinaison de valeur pour le Mastermind
 	 */
 	public int inputUserValueMastermind(int indexMax, int numberAllowed) {
 
@@ -144,7 +143,9 @@ public class GameUtilitaire {
 		}
 		return saisieUtilisateur;
 	}
-
+/*
+defini un mode aleatoire compatible avec le mode de jeu mastermind
+ */
 	public int generateRandomNumberMastermind(int indexMax, int numberAllowed) {
 		ArrayList<Integer> randomNumberList = new ArrayList<Integer>();
 		while (true) {
@@ -181,7 +182,9 @@ public class GameUtilitaire {
 		}
 		return randomNumber;
 	}
-
+/*
+ demande le choix du mode a l'utilisateur
+ */
 	public int inputChoice() {
 		Scanner scan = new Scanner(System.in);
 		String gameString;
@@ -205,18 +208,21 @@ public class GameUtilitaire {
 		}
 		return game;
 	}
-
+/*
+genere le nombre le plus petit autorisé
+ */
 	public int startAllChoice(int indexMax) {
 		int responseProgram = 0;
 		for (int index = 0; index < indexMax; index++) {
 			int addition = (int) (1 * Math.pow(10, indexMax - 1 - index));
 			responseProgram = responseProgram + addition;
 		}
-//		System.out.println(responseProgram);
 
 		return responseProgram;
 	}
-
+/*
+genere le plus grand nombre autorisé
+ */
 	public int endAllChoice(int indexMax, int numberAllowed) {
 
 		int responseProgram = 0;
@@ -224,13 +230,7 @@ public class GameUtilitaire {
 			int addition = (int) (numberAllowed * Math.pow(10, indexMax - 1 - index));
 			responseProgram = responseProgram + addition;
 		}
-//		System.out.println(responseProgram);
 		return responseProgram;
 	}
 
-	// public int returnFirstMastermindValue(int indexMax) {
-	// int firstValue =
-	// return
-	// }
-	//
 }

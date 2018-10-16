@@ -32,7 +32,7 @@ public class ResearchGameDuel {
 		} catch (IOException e2) {
 			e2.printStackTrace();
 		}
-		// developer = Integer.parseInt(prop.getProperty("developerMod"));
+
 		indexMax = Integer.parseInt(prop.getProperty("case"));
 		int essai = Integer.parseInt(prop.getProperty("essai"));
 		reponse = gameUtil.generateRandomNumber(indexMax);
