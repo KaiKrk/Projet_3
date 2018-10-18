@@ -3,7 +3,7 @@ Presentation Jeu Mastermind et Recherche
 Pour pouvoir jouer vous allez devoir exécuter Game.jar depuis l'invite de commande :
 dossier/dossier>java -jar Game.jar
 
-Le mode développeur sera effectif avec la commande >java -jar Game.jar developer
+Le mode développeur sera effectif avec la commande >java -jar Game.jar developer ou part le fichier de configuration 
 
 Au début du jeu vous allez devoir choisir votre jeu en sélectionnant 1 ou 2 selon votre jeu 
 Puis par la suite vous aurez 3 modes disponible :
